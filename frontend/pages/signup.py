@@ -11,6 +11,8 @@ if project_root not in sys.path:
 from backend.services.auth.auth_utils import add_user
 from backend.services.utils.validators import *
 
+IMAGE_PATH=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\images"
+
 def signup():
     """SignUp page for web app.
     """
@@ -33,16 +35,23 @@ def signup():
         confirm_password=st.text_input("Confirm Password",placeholder="Enter password",type="password")
         phone_number=st_phone_number("Phone Number",placeholder="Enter phone number",default_country="IN")
         preferences=st.multiselect("Preferences",['Adventure','Beaches','Temples','Mountains'])
+        uploaded_image=st.file_uploader("Upload a profile image",type=["jpg", "jpeg", "png"],accept_multiple_files=False)
         submit=st.form_submit_button("Submit")
         if submit:
-            if name and username and email and password and confirm_password and phone_number['number'] and preferences:
+            if name and username and email and password and confirm_password and phone_number['number'] and preferences and uploaded_image:
                 if is_valid_email(email):
                     if is_valid_phone(phone_number['nationalNumber']):
                         if is_valid_password(password):
                             if not is_username_exits(username):
                                 if password==confirm_password:
                                     if add_user(name,username,password,email,phone_number['nationalNumber'],preferences):
-                                        st.success("User added.")
+                                        _, file_extension = os.path.splitext(uploaded_image.name)
+                                        new_filename=f"{username}{file_extension}"
+                                        file_path=os.path.join(IMAGE_PATH,new_filename)
+                                        with open(file_path,'wb') as f:
+                                            f.write(uploaded_image.getbuffer())
+                                        
+                                        st.success(f"User added.{file_path}")
                                         with st.spinner("Redirecting to login..."):
                                             time.sleep(1)
                                         st.switch_page('main.py')
