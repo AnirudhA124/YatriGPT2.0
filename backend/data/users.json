@@ -10,14 +10,5 @@
       "Temples",
       "Mountains"
     ]
-  },
-  "AnirudhA1245": {
-    "name": "Anirudh Agrawal",
-    "password": "$argon2id$v=19$m=65536,t=3,p=4$pvL2Js0oIg9B9A3tPzPTJw$3aeE57TQouAx/p6UMqYGCn2W/MGMaXUdGMD0ftURgr4",
-    "email": "agrawalanirudh18@gmail.com",
-    "phone_number": "9174741646",
-    "preferences": [
-      "Adventure"
-    ]
   }
 }

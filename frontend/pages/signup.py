@@ -13,6 +13,8 @@ from backend.services.utils.validators import *
 
 IMAGE_PATH=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\images"
 
+st.set_page_config(layout="centered")
+
 def signup():
     """SignUp page for web app.
     """

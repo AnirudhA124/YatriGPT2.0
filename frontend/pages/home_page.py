@@ -5,7 +5,8 @@ from pathlib import Path
 
 st.set_page_config(
     page_title="Home",
-    initial_sidebar_state="collapsed"
+    initial_sidebar_state="collapsed",
+    layout='wide'
 )
 
 # CSS for profile image
@@ -50,13 +51,23 @@ def load_profile_image(username):
     """Load and encode profile image as base64"""
     try:
         # Use relative path or put images in a 'static' folder
-        image_path = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.jpg")
+        image_path_jpg = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.jpg")
+        image_path_png = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.png")
+        image_path_jpeg = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.jpeg")
         
         # Alternative: put images in streamlit's static folder
         # image_path = Path(f"static/images/{username}.jpg")
         
-        if image_path.exists():
-            with open(image_path, "rb") as img_file:
+        if image_path_jpg.exists():
+            with open(image_path_jpg, "rb") as img_file:
+                img_data = base64.b64encode(img_file.read()).decode()
+                return img_data
+        elif image_path_png.exists():
+            with open(image_path_png, "rb") as img_file:
+                img_data = base64.b64encode(img_file.read()).decode()
+                return img_data
+        elif image_path_jpeg.exists():
+            with open(image_path_jpeg, "rb") as img_file:
                 img_data = base64.b64encode(img_file.read()).decode()
                 return img_data
         else:
@@ -103,7 +114,27 @@ def home_page():
                 st.session_state.username=""
                 st.session_state.name=""
                 st.switch_page('main.py')
-        
+        custom_html = """
+        <div class="banner">
+            <img src="https://thumbs.dreamstime.com/z/summer-travel-accessories-white-background-summer-travel-accessories-white-background-travel-planning-top-view-concept-133773362.jpg" alt="Banner Image">
+        </div>
+        <style>
+            .banner {
+                width: 160%;
+                height: 200px;
+                overflow: hidden;
+            }
+            .banner img {
+                width: 100%;
+                object-fit: cover;
+            }
+        </style>
+        """
+        # Display the custom HTML
+        st.markdown(
+                custom_html, 
+                unsafe_allow_html=True
+            )
         st.title(f"Welcome {name}")
 
 if __name__ == "__main__":

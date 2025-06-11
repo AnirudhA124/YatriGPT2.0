@@ -9,21 +9,26 @@ if project_root not in sys.path:
     sys.path.append(project_root)
 
 from backend.services.auth.auth_utils import verify_user,load_users
+from backend.constants.background_imges import login_background_image
 
 all_users=load_users()
+st.set_page_config(layout="centered",initial_sidebar_state="collapsed")
+st.markdown(
+        """
+        <style>
+            [data-testid="stSidebar"] {
+                display: none;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
 
 def login():
     """Login page for web app.
     """
-    page_bg_img="""
-        <style>
-        [data-testid="stAppViewContainer"]{
-            background-image: url("https://img.freepik.com/free-photo/flat-lay-camera-passport-arrangement_23-2148786133.jpg?semt=ais_items_boosted&w=740");
-            background-size:cover;
-        }
-        </style>
-    """
-    st.markdown(page_bg_img,unsafe_allow_html=True)
+    page_bg_image_login=login_background_image()
+    st.markdown(page_bg_image_login,unsafe_allow_html=True)
     if "logged_in" not in st.session_state:
         st.session_state.logged_in=False
         st.session_state.username=""
