@@ -1,1 +1,3 @@
 .venv
+backend\constants\__pycache__
+backend\services\__pycache__
