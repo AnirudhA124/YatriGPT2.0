@@ -4,6 +4,7 @@ import json
 ph= PasswordHasher()
 
 HOTELS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\hotels.json"
+HOTEL_BOOKINGS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\hotel_bookings.json"
 
 def hash_password(password:str):
     """To hash password.
@@ -37,3 +38,35 @@ def get_hotels():
     """
     with open(HOTELS_DATA,'r') as f:
         return json.load(f)
+    
+def save_hotels(username:str,hotel_id:int,hotel_name:str,place:str,num_guests:int,guest_names:list,phone_number:str):
+    """Add booking details to hotel_bookings.json
+
+    Args:
+        username (str): user's username
+        hotel_id (int): hotel_id
+        hotel_name (str): hotel's name
+        place (str): place of visit
+        num_guests (int): number of guests
+        guest_names (list): names of guests
+        phone_number (str): phone number
+
+    Returns:
+        bool: True if entered else False
+    """
+    with open(HOTEL_BOOKINGS_DATA,'r') as f:
+        all_bookings=json.load(f)
+    all_bookings[username]={
+        "hotel_id":hotel_id,
+        "hotel_name":hotel_name,
+        "place":place,
+        "num_guests":num_guests,
+        "guest_names":guest_names,
+        "phone_number":phone_number
+    }
+    try:
+        with open(HOTEL_BOOKINGS_DATA,'w') as f:
+            json.dump(all_bookings,f)
+        return True
+    except:
+        return False
