@@ -19,19 +19,19 @@ YatriGPT is a travel assistant application built with Streamlit, designed to hel
 1. **Clone the repository:**
 git clone https://github.com/AnirudhA124/YatriGPT2.0.git
 
-text
+
 2. **Navigate to the frontend directory:**
 cd YatriGPT/frontend
 
-text
+
 3. **Install dependencies:**
 pip install -r requirements.txt
 
-text
+
 4. **Run the application:**
 streamlit run main.py
 
-text
+
 5. **Open in browser:**
 - The app will start and open automatically in your default browser.
 - If not, open `http://localhost:8501` in your browser.
