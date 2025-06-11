@@ -7,6 +7,44 @@ if project_root not in sys.path:
     sys.path.append(project_root)
 
 from backend.services.utils.helpers import get_hotels, save_hotels
+from sidebar import render_sidebar
+
+st.markdown("""
+<style>
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f0f0f0;
+    margin: 10px auto;
+    display: block;
+}
+.profile-placeholder {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px auto;
+}
+.centered-header {
+    text-align: center;
+}
+.centered-username {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+</style>
+""", unsafe_allow_html=True)
 
 def book_hotel():
     if "selected_hotel_id" not in st.session_state:
@@ -14,7 +52,7 @@ def book_hotel():
         
     if not st.session_state.get('logged_in'):
         st.switch_page("main.py")
-
+    render_sidebar()
     st.title("Hotel Booking")
     if 'username' not in st.session_state:
         st.error("Please log in to book a hotel.")

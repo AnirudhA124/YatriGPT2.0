@@ -6,14 +6,17 @@ from pathlib import Path
 from streamlit_card import card
 from backend.constants.background_imges import (cover_image,book_hotel,book_flight,book_train,
                                                 restaurants,itinerary,activities)
-
+import sys
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+if project_root not in sys.path:
+    sys.path.append(project_root)
+from sidebar import render_sidebar
 st.set_page_config(
     page_title="Home",
     initial_sidebar_state="collapsed",
     layout='wide'
 )
 
-# CSS for profile image
 st.markdown("""
 <style>
 .profile-img {
@@ -51,34 +54,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def load_profile_image(username):
-    """Load and encode profile image as base64"""
-    try:
-        # Use relative path or put images in a 'static' folder
-        image_path_jpg = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.jpg")
-        image_path_png = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.png")
-        image_path_jpeg = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.jpeg")
-        
-        # Alternative: put images in streamlit's static folder
-        # image_path = Path(f"static/images/{username}.jpg")
-        
-        if image_path_jpg.exists():
-            with open(image_path_jpg, "rb") as img_file:
-                img_data = base64.b64encode(img_file.read()).decode()
-                return img_data
-        elif image_path_png.exists():
-            with open(image_path_png, "rb") as img_file:
-                img_data = base64.b64encode(img_file.read()).decode()
-                return img_data
-        elif image_path_jpeg.exists():
-            with open(image_path_jpeg, "rb") as img_file:
-                img_data = base64.b64encode(img_file.read()).decode()
-                return img_data
-        else:
-            return None
-    except Exception as e:
-        st.error(f"Error loading profile image: {str(e)}")
-        return None
 
 def home_page():
     """Home Page for the web app."""
@@ -88,38 +63,7 @@ def home_page():
         name = st.session_state.get('name', 'User')
         username = st.session_state.get('username', 'user')
         
-        with st.sidebar:
-            st.markdown('<h2 class="centered-header">👤 User Profile</h2>', unsafe_allow_html=True)
-            
-            # Try to load profile image
-            profile_img_data = load_profile_image(username)
-            
-            if profile_img_data:
-                st.markdown(
-                    f'<img src="data:image/jpeg;base64,{profile_img_data}" class="profile-img">', 
-                    unsafe_allow_html=True
-                )
-            else:
-                # Show placeholder with user's initial
-                initial = name[0].upper() if name else 'U'
-                st.markdown(
-                    f'<div class="profile-placeholder">{initial}</div>', 
-                    unsafe_allow_html=True
-                )
-            
-            st.markdown(
-                f'<div class="centered-username">@{username}</div>', 
-                unsafe_allow_html=True
-            )
-            prev_bookings=st.button("Previous Bokings",use_container_width=True)
-            if prev_bookings:
-                st.switch_page('pages/previous_booking.py')
-            logout=st.button("Logout",use_container_width=True)
-            if logout:
-                st.session_state.logged_in=False
-                st.session_state.username=""
-                st.session_state.name=""
-                st.switch_page('main.py')
+        render_sidebar()
         
         custom_html = cover_image()
         # Display the custom HTML

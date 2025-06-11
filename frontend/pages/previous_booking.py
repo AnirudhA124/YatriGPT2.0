@@ -10,7 +10,7 @@ import sys
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 if project_root not in sys.path:
     sys.path.append(project_root)
-from home_page import load_profile_image
+from sidebar import render_sidebar
 
 
 st.markdown("""
@@ -59,38 +59,7 @@ def previous_bookings():
         name = st.session_state.get('name', 'User')
         username = st.session_state.get('username', 'user')
         
-        with st.sidebar:
-            st.markdown('<h2 class="centered-header">👤 User Profile</h2>', unsafe_allow_html=True)
-            
-            # Try to load profile image
-            profile_img_data = load_profile_image(username)
-            
-            if profile_img_data:
-                st.markdown(
-                    f'<img src="data:image/jpeg;base64,{profile_img_data}" class="profile-img">', 
-                    unsafe_allow_html=True
-                )
-            else:
-                # Show placeholder with user's initial
-                initial = name[0].upper() if name else 'U'
-                st.markdown(
-                    f'<div class="profile-placeholder">{initial}</div>', 
-                    unsafe_allow_html=True
-                )
-            
-            st.markdown(
-                f'<div class="centered-username">@{username}</div>', 
-                unsafe_allow_html=True
-            )
-            prev_bookings=st.button("Previous Bokings",use_container_width=True)
-            if prev_bookings:
-                pass
-            logout=st.button("Logout",use_container_width=True)
-            if logout:
-                st.session_state.logged_in=False
-                st.session_state.username=""
-                st.session_state.name=""
-                st.switch_page('main.py')
+        render_sidebar()
         
         custom_html = cover_image()
         # Display the custom HTML
