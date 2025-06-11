@@ -6,14 +6,13 @@ from pathlib import Path
 from streamlit_card import card
 from backend.constants.background_imges import (cover_image,book_hotel,book_flight,book_train,
                                                 restaurants,itinerary,activities)
+import sys
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
+if project_root not in sys.path:
+    sys.path.append(project_root)
+from home_page import load_profile_image
 
-st.set_page_config(
-    page_title="Home",
-    initial_sidebar_state="collapsed",
-    layout='wide'
-)
 
-# CSS for profile image
 st.markdown("""
 <style>
 .profile-img {
@@ -51,37 +50,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-def load_profile_image(username):
-    """Load and encode profile image as base64"""
-    try:
-        # Use relative path or put images in a 'static' folder
-        image_path_jpg = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.jpg")
-        image_path_png = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.png")
-        image_path_jpeg = Path(f"C:/Users/Anirudh/Desktop/Python Internship/Project/YatriGPT/backend/data/images/{username}.jpeg")
-        
-        # Alternative: put images in streamlit's static folder
-        # image_path = Path(f"static/images/{username}.jpg")
-        
-        if image_path_jpg.exists():
-            with open(image_path_jpg, "rb") as img_file:
-                img_data = base64.b64encode(img_file.read()).decode()
-                return img_data
-        elif image_path_png.exists():
-            with open(image_path_png, "rb") as img_file:
-                img_data = base64.b64encode(img_file.read()).decode()
-                return img_data
-        elif image_path_jpeg.exists():
-            with open(image_path_jpeg, "rb") as img_file:
-                img_data = base64.b64encode(img_file.read()).decode()
-                return img_data
-        else:
-            return None
-    except Exception as e:
-        st.error(f"Error loading profile image: {str(e)}")
-        return None
 
-def home_page():
-    """Home Page for the web app."""
+def previous_bookings():
+    """Previous bookings page for the web app."""
     if not st.session_state.get('logged_in'):
         st.switch_page("main.py")
     else:
@@ -113,7 +84,7 @@ def home_page():
             )
             prev_bookings=st.button("Previous Bokings",use_container_width=True)
             if prev_bookings:
-                st.switch_page('pages/previous_booking.py')
+                pass
             logout=st.button("Logout",use_container_width=True)
             if logout:
                 st.session_state.logged_in=False
@@ -131,23 +102,18 @@ def home_page():
 
         # Show spinner while loading cards
         with st.spinner('Loading booking options...'):            
-            col1,col2,col3=st.columns(3)
+            col1,col2=st.columns(2)
 
             with col1:
-                if card(title="Book Hotels",text="Book Hotels",key="hotels",image=book_hotel()):
-                    st.switch_page('pages/book_hotel.py')
-                if card(title="Book Train",text="Book Trains",key="train",image=book_train()):
+                if card(title="Hotels Bookings",text="View yor Hotel Bookings Here",key="hotels",image=book_hotel()):
+                    pass
+                if card(title="Train Bookings",text="View yor Train Bookings Here",key="train",image=book_train()):
                     pass
             with col2:
-                if card(title="Itinerary",text="Generate your itinerary",key="itinerary",image=itinerary()):
+                if card(title="Activities Bookings",text="View yor Activities Bookings Here",key="activities",image=activities()):
                     pass
-                if card("Book Flights",text="Book flights",key="flight",image=book_flight()):
-                    pass
-            with col3:
-                if card(title="Nearby Restaurants",text="Reserve your seat",key="restaurant",image=restaurants()):
-                    pass
-                if card(title="Activities",text="Book exciting activities",key="activities",image=activities()):
+                if card("Flights Bookings",text="View yor Flight Bookings Here",key="flight",image=book_flight()):
                     pass
 
 if __name__ == "__main__":
-    home_page()
+    previous_bookings()

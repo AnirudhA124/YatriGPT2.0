@@ -11,6 +11,9 @@ from backend.services.utils.helpers import get_hotels, save_hotels
 def book_hotel():
     if "selected_hotel_id" not in st.session_state:
         st.session_state.selected_hotel_id = None
+        
+    if not st.session_state.get('logged_in'):
+        st.switch_page("main.py")
 
     st.title("Hotel Booking")
     if 'username' not in st.session_state:
