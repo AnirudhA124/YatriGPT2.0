@@ -4,6 +4,7 @@ import os
 import time
 from pathlib import Path
 from streamlit_card import card
+from backend.constants.background_imges import (cover_image,book_hotel,book_flight,book_train,restaurants,itinerary,activities)
 
 st.set_page_config(
     page_title="Home",
@@ -117,22 +118,7 @@ def home_page():
                 st.session_state.name=""
                 st.switch_page('main.py')
         
-        custom_html = """
-        <div class="banner">
-            <img src="https://thumbs.dreamstime.com/z/summer-travel-accessories-white-background-summer-travel-accessories-white-background-travel-planning-top-view-concept-133773362.jpg" alt="Banner Image">
-        </div>
-        <style>
-            .banner {
-                width: 160%;
-                height: 200px;
-                overflow: hidden;
-            }
-            .banner img {
-                width: 100%;
-                object-fit: cover;
-            }
-        </style>
-        """
+        custom_html = cover_image()
         # Display the custom HTML
         st.markdown(
                 custom_html, 
@@ -145,10 +131,20 @@ def home_page():
             col1,col2,col3=st.columns(3)
 
             with col1:
-                if card(title="Book Hotels",text="Book Hotels",key="hotels",image="https://static.vecteezy.com/system/resources/thumbnails/002/804/814/small_2x/abstract-blur-lobby-and-hotel-interior-free-photo.jpg"):
-                    st.success("Clicked Hotel Book.")
-                if card(title="Book Train",text="Book Trains",key="train",image="https://static.vecteezy.com/system/resources/previews/026/727/110/large_2x/train-station-template-background-illustration-free-photo.jpg"):
-                    st.success("Clicked Book trains.")
+                if card(title="Book Hotels",text="Book Hotels",key="hotels",image=book_hotel()):
+                    pass
+                if card(title="Book Train",text="Book Trains",key="train",image=book_train()):
+                    pass
+            with col2:
+                if card(title="Itinerary",text="Generate your itinerary",key="itinerary",image=itinerary()):
+                    pass
+                if card("Book Flights",text="Book flights",key="flight",image=book_flight()):
+                    pass
+            with col3:
+                if card(title="Nearby Restaurants",text="Reserve your seat",key="restaurant",image=restaurants()):
+                    pass
+                if card(title="Activities",text="Book exciting activities",key="activities",image=activities()):
+                    pass
 
 if __name__ == "__main__":
     home_page()
