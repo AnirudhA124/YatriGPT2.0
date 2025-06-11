@@ -1,7 +1,9 @@
 import streamlit as st
 import base64
 import os
+import time
 from pathlib import Path
+from streamlit_card import card
 
 st.set_page_config(
     page_title="Home",
@@ -114,6 +116,7 @@ def home_page():
                 st.session_state.username=""
                 st.session_state.name=""
                 st.switch_page('main.py')
+        
         custom_html = """
         <div class="banner">
             <img src="https://thumbs.dreamstime.com/z/summer-travel-accessories-white-background-summer-travel-accessories-white-background-travel-planning-top-view-concept-133773362.jpg" alt="Banner Image">
@@ -136,6 +139,16 @@ def home_page():
                 unsafe_allow_html=True
             )
         st.title(f"Welcome {name}")
+
+        # Show spinner while loading cards
+        with st.spinner('Loading booking options...'):            
+            col1,col2,col3=st.columns(3)
+
+            with col1:
+                if card(title="Book Hotels",text="Book Hotels",key="hotels",image="https://static.vecteezy.com/system/resources/thumbnails/002/804/814/small_2x/abstract-blur-lobby-and-hotel-interior-free-photo.jpg"):
+                    st.success("Clicked Hotel Book.")
+                if card(title="Book Train",text="Book Trains",key="train",image="https://static.vecteezy.com/system/resources/previews/026/727/110/large_2x/train-station-template-background-illustration-free-photo.jpg"):
+                    st.success("Clicked Book trains.")
 
 if __name__ == "__main__":
     home_page()
