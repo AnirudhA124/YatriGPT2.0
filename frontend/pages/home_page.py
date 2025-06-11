@@ -4,7 +4,8 @@ import os
 import time
 from pathlib import Path
 from streamlit_card import card
-from backend.constants.background_imges import (cover_image,book_hotel,book_flight,book_train,restaurants,itinerary,activities)
+from backend.constants.background_imges import (cover_image,book_hotel,book_flight,book_train,
+                                                restaurants,itinerary,activities)
 
 st.set_page_config(
     page_title="Home",
@@ -132,7 +133,7 @@ def home_page():
 
             with col1:
                 if card(title="Book Hotels",text="Book Hotels",key="hotels",image=book_hotel()):
-                    pass
+                    st.switch_page('pages/book_hotel.py')
                 if card(title="Book Train",text="Book Trains",key="train",image=book_train()):
                     pass
             with col2:

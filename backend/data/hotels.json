@@ -1,0 +1,83 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Goa",
+      "hotels": [
+        {
+          "id": 101,
+          "name": "Goa Paradise Resort",
+          "price": 3500,
+          "rating": 4.5,
+          "amenities": ["Pool", "Spa", "WiFi"]
+        },
+        {
+          "id": 102,
+          "name": "Beachfront Hotel",
+          "price": 4200,
+          "rating": 4.7,
+          "amenities": ["Beach Access", "Restaurant", "WiFi"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Shimla",
+      "hotels": [
+        {
+          "id": 201,
+          "name": "Mountain View Hotel",
+          "price": 2800,
+          "rating": 4.3,
+          "amenities": ["Mountain View", "Restaurant", "Parking"]
+        },
+        {
+          "id": 202,
+          "name": "Snow Valley Inn",
+          "price": 3200,
+          "rating": 4.4,
+          "amenities": ["Ski Access", "WiFi", "Breakfast"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Jaipur",
+      "hotels": [
+        {
+          "id": 301,
+          "name": "Royal Heritage Hotel",
+          "price": 3800,
+          "rating": 1,
+          "amenities": ["Heritage Decor", "Restaurant", "WiFi"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Darjeeling",
+      "hotels": [
+        {
+          "id": 401,
+          "name": "Tea Garden Inn",
+          "price": 3100,
+          "rating": 4.2,
+          "amenities": ["Tea Garden View", "Parking", "Breakfast"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Kerala",
+      "hotels": [
+        {
+          "id": 501,
+          "name": "Backwater Resort",
+          "price": 4500,
+          "rating": 4.8,
+          "amenities": ["Backwater View", "Spa", "WiFi"]
+        }
+      ]
+    }
+  ]
+}

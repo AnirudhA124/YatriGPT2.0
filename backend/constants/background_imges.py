@@ -27,7 +27,7 @@ def cover_image():
     """
     return """
         <div class="banner">
-            <img src="https://thumbs.dreamstime.com/z/summer-travel-accessories-white-background-summer-travel-accessories-white-background-travel-planning-top-view-concept-133773362.jpg" alt="Banner Image">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.x-53Glwlo8JZbAIz7exPcAHaEj?w=258&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" alt="Banner Image">
         </div>
         <style>
             .banner {
@@ -37,7 +37,8 @@ def cover_image():
             }
             .banner img {
                 width: 100%;
-                object-fit: cover;
+                object-fit: fit;
+                
             }
         </style>
         """
