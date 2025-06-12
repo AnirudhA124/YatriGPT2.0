@@ -6,6 +6,7 @@ ph= PasswordHasher()
 HOTELS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\hotels.json"
 HOTEL_BOOKINGS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\hotel_bookings.json"
 TRAINS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\trains.json"
+TRAIN_BOOKINGS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\train_bookings.json"
 
 def hash_password(password:str):
     """To hash password.
@@ -147,3 +148,46 @@ def book_train(num_seats: int, train_num: str, tier: str):
             return False
     # Train not found
     return False
+
+def save_train_booking(username:str,train_name:str,train_number:str,number_of_guests:int,price:int,tier:str,travel_date):
+    """Saving train bookings.
+
+    Args:
+        username (str): user's username
+        train_name (str): train name
+        train_number (str): train number
+        number_of_guests (int): number of seats booked
+        price (int): price
+        tier (str): tier (AC2,AC3,etc)
+        travel_date (_type_): date of journey
+
+    Returns:
+        bool: True if booked else False.
+    """
+    with open(TRAIN_BOOKINGS_DATA,'r') as f:
+        all_bookings=json.load(f)
+    if username not in all_bookings:
+        all_bookings[username]=[{
+            "train_name":train_name,
+            "train_number":train_number,
+            "number_of_seats":number_of_guests,
+            "tier":tier,
+            "travel_date":travel_date,
+            "price":price
+        }]
+    elif username in all_bookings:
+        list_trains=all_bookings[username]
+        list_trains.append({
+            "train_name":train_name,
+            "train_number":train_number,
+            "number_of_seats":number_of_guests,
+            "tier":tier,
+            "travel_date":travel_date,
+            "price":price
+        })
+    try:
+        with open(TRAIN_BOOKINGS_DATA,'w') as f:
+            json.dump(all_bookings,f)
+        return True
+    except:
+        return False

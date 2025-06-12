@@ -4,6 +4,7 @@ import streamlit as st
 from backend.services.utils.helpers import get_trains
 from backend.services.utils.validators import is_valid_phone
 from sidebar import render_sidebar
+import datetime
 
 st.markdown("""
 <style>
@@ -49,6 +50,7 @@ def book_train():
         st.session_state.train_name=""
         st.session_state.number_of_seats=None
         st.session_state.price=None
+        st.session_state.travel_date=None
 
     if not st.session_state.get('logged_in'):
         st.switch_page("main.py")
@@ -63,13 +65,13 @@ def book_train():
     source = st.selectbox("Source", places)
     destination = st.selectbox("Destination", [place for place in places if place != source])
     number_of_seats=st.selectbox("Number of Seats",[1,2,3,4,5])
-
+    travel_date=st.date_input("Travel Date",value="today")
     # Fetch train data
     train_data = get_trains()
 
     # Filter trains by source and destination
     filtered_trains = [train for train in train_data['trains'] 
-                       if train['from'] == source and train['to'] == destination]
+                       if train['from'] == source and train['to'] == destination and datetime.datetime.fromisoformat(train['departure']).date()==travel_date]
 
     # Display each train in a container with availability and prices
     for train in filtered_trains:
@@ -96,6 +98,7 @@ def book_train():
                 st.session_state.train_number=train['train_number']
                 st.session_state.train_tier=selected_class_name
                 st.session_state.number_of_seats=number_of_seats
+                st.session_state.travel_date=travel_date
                 for cls in train['classes']:
                     if cls['name']==selected_class_name:
                         st.session_state.price=cls['fare']*number_of_seats

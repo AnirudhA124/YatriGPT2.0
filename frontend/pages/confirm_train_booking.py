@@ -7,7 +7,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 if project_root not in sys.path:
     sys.path.append(project_root)
 from sidebar import render_sidebar
-from backend.services.utils.helpers import book_train
+from backend.services.utils.helpers import book_train,save_train_booking
 
 
 st.markdown("""
@@ -57,17 +57,20 @@ def confirm_train_booking():
         train_tier=st.session_state.train_tier
         number_of_seats=st.session_state.number_of_seats
         price=st.session_state.price
+        travel_date=st.session_state.travel_date
         render_sidebar()
         with st.form("Confirm Train Booking"):
             st.title(f"Confirm your Booking for {train_name} ({train_number}):")
             st.text(f"Train Name:{train_name}")
             st.text(f"Number of guests:{number_of_seats}")
             st.text(f"Tier:{train_tier}")
+            st.text(f"Travel Date:{travel_date}")
             st.text(f"Price:{price}")
             submit=st.form_submit_button("Confirm Booking & Pay Now")
             if submit:
                 if book_train(number_of_seats,train_number,train_tier):
                     st.success("Booking is confirmed.")
+                    save_train_booking(username,train_name,train_number,number_of_seats,price,train_tier,travel_date.isoformat() if hasattr(travel_date, 'isoformat') else str(travel_date))
                     with st.spinner("Redirecting to home page...."):
                         time.sleep(1)
                     st.switch_page('pages/home_page.py')
