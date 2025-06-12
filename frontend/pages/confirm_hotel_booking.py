@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import sys
+import time
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 if project_root not in sys.path:
@@ -75,6 +76,9 @@ def confirm_hotel_booking():
             if submit:
                 if save_hotels(username,hotel_id,hotel_name,place,number_of_guests,guests_names,phone_number,price,str(check_in_date),str(check_out_date)):
                     st.success("Booking is confirmed.")
+                    with st.spinner("Redirecting to home page...."):
+                        time.sleep(1)
+                    st.switch_page('pages/home_page.py')
                 else:
                     st.error("Booking not confirmed.")
 

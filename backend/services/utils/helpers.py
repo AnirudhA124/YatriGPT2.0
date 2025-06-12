@@ -90,3 +90,12 @@ def save_hotels(username:str,hotel_id:int,hotel_name:str,place:str,num_guests:in
         return True
     except:
         return False
+
+def get_hotel_booking():
+    """Returns previous booking data for hotels.
+
+    Returns:
+        json: Hotel booking history.
+    """
+    with open(HOTEL_BOOKINGS_DATA,'r') as f:
+        return json.load(f)
