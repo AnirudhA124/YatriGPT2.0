@@ -191,3 +191,12 @@ def save_train_booking(username:str,train_name:str,train_number:str,number_of_gu
         return True
     except:
         return False
+
+def get_train_bookings():
+    """Returns train bookings.
+
+    Returns:
+        json: returns train bookings
+    """
+    with open(TRAIN_BOOKINGS_DATA,'r') as f:
+        return json.load(f)

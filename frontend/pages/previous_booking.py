@@ -77,7 +77,7 @@ def previous_bookings():
                 if card(title="Hotels Bookings",text="View yor Hotel Bookings Here",key="hotels",image=book_hotel()):
                     st.switch_page('pages/hotel_previous_bookings.py')
                 if card(title="Train Bookings",text="View yor Train Bookings Here",key="train",image=book_train()):
-                    pass
+                    st.switch_page('pages/train_previous_booking.py')
             with col2:
                 if card(title="Activities Bookings",text="View yor Activities Bookings Here",key="activities",image=activities()):
                     pass
