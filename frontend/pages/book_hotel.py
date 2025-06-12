@@ -7,6 +7,7 @@ if project_root not in sys.path:
     sys.path.append(project_root)
 
 from backend.services.utils.helpers import get_hotels, save_hotels
+from backend.services.utils.validators import is_valid_phone
 from sidebar import render_sidebar
 
 st.markdown("""
@@ -61,6 +62,7 @@ def book_hotel():
     hotel_data = get_hotels()
     places_name = [place['name'] for place in hotel_data['places']]
     selected_place = st.selectbox("Select a place", places_name)
+    number_of_guests=st.selectbox("Number of Guests",[1,2,3,4,5,6,7,8,9,10])
     selected_place_data = None
     for place in hotel_data['places']:
         if place['name'] == selected_place:
@@ -68,8 +70,38 @@ def book_hotel():
             break
 
     if selected_place_data:
+        # Filter and Sort Controls
+        min_price = min(hotel['price'] for hotel in selected_place_data['hotels'])
+        max_price = max(hotel['price'] for hotel in selected_place_data['hotels'])
+        price_range = st.slider(
+            "Price Range",
+            min_value=min_price,
+            max_value=max_price,
+            value=(min_price, max_price)
+        )
+        sort_by = st.radio(
+            "Sort by",
+            ["Rating (High to Low)", "Rating (Low to High)", "Price (Low to High)", "Price (High to Low)"]
+        )
+
+        # Filter hotels by price
+        filtered_hotels = [
+            hotel for hotel in selected_place_data['hotels']
+            if price_range[0] <= hotel['price'] <= price_range[1]
+        ]
+
+        # Sort hotels
+        if sort_by == "Rating (High to Low)":
+            filtered_hotels.sort(key=lambda x: x['rating'], reverse=True)
+        elif sort_by == "Rating (Low to High)":
+            filtered_hotels.sort(key=lambda x: x['rating'])
+        elif sort_by == "Price (Low to High)":
+            filtered_hotels.sort(key=lambda x: x['price'])
+        elif sort_by == "Price (High to Low)":
+            filtered_hotels.sort(key=lambda x: x['price'], reverse=True)
+
         st.subheader(f'Hotels in {selected_place}:')
-        for hotel in selected_place_data['hotels']:
+        for hotel in filtered_hotels:
             with st.container(border=True):
                 st.subheader(f"{hotel['name']}")
                 st.write(f'Price: ₹{hotel['price']}')
@@ -84,11 +116,11 @@ def book_hotel():
 
                 # Show the form only for the selected hotel
                 if st.session_state.selected_hotel_id == hotel['id']:
-                    with st.form(key=f"book_{hotel['id']}"):
+                    with st.form(key=f"book_{hotel['id']}",enter_to_submit=False):
                         main_guest_name = st.text_input("Name", placeholder="Enter name")
-                        number_of_guests = int(st.number_input("Number of Guests", placeholder="Enter number of guests"))
+                        # number_of_guests = int(st.number_input("Number of Guests", placeholder="Enter number of guests"))
                         guest_names = [main_guest_name]
-                        for i in range(number_of_guests):
+                        for i in range(number_of_guests-1):
                             guest_name = st.text_input(
                                 f"Guest {i+1} Name",
                                 key=f"guest_{i}_{hotel['id']}",
@@ -97,14 +129,18 @@ def book_hotel():
                             guest_names.append(guest_name)
                         phone_number = st.text_input("Phone Number", placeholder="Enter phone number")
                         submit = st.form_submit_button("Submit")
-                        if submit and main_guest_name and number_of_guests and guest_name and phone_number:
-                            if save_hotels(username, hotel['id'], hotel['name'], selected_place, number_of_guests, guest_names, phone_number):
-                                st.success(f"Booked hotel: {hotel['name']}")
-                                st.session_state.selected_hotel_id = None  # Optionally reset
+                        if submit:
+                            if main_guest_name and number_of_guests and guest_name and phone_number:
+                                if is_valid_phone(phone_number):
+                                    if save_hotels(username, hotel['id'], hotel['name'], selected_place, number_of_guests, guest_names, phone_number):
+                                        st.success(f"Booked hotel: {hotel['name']}")
+                                        st.session_state.selected_hotel_id = None  # Optionally reset
+                                    else:
+                                        st.error(f"Hotel not booked.")
+                                else:
+                                    st.error("Enter correct phone number.")
                             else:
-                                st.error(f"Hotel not booked.")
-                        else:
-                            st.error("Please enter all fields.")
+                                st.error("Please enter all fields.")
     else:
         st.error("No hotels found for the selected place.")
 
