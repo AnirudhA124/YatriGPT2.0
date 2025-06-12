@@ -44,6 +44,11 @@ st.markdown("""
 def book_train():
     if "selected_train_id" not in st.session_state:
         st.session_state.selected_train_id = None
+        st.session_state.train_number=""
+        st.session_state.train_tier=""
+        st.session_state.train_name=""
+        st.session_state.number_of_seats=None
+        st.session_state.price=None
 
     if not st.session_state.get('logged_in'):
         st.switch_page("main.py")
@@ -57,6 +62,7 @@ def book_train():
     places = ["Goa", "Shimla", "Jaipur", "Darjeeling", "Kerela", "Delhi", "Indore"]
     source = st.selectbox("Source", places)
     destination = st.selectbox("Destination", [place for place in places if place != source])
+    number_of_seats=st.selectbox("Number of Seats",[1,2,3,4,5])
 
     # Fetch train data
     train_data = get_trains()
@@ -75,9 +81,27 @@ def book_train():
             st.write(f"Arrival: {train['arrival']}")
             st.write(f"Travel Time: {train['travel_time']}")
             st.write("**Available Classes:**")
-            for cls in train['classes']:
-                st.write(f"- {cls['name']}: {cls['available']} seats available")
-                st.write(f"Price: ₹{cls['fare']}")
+
+            class_options = [f"{cls['name']} (₹{cls['fare']}, {cls['available']} seats)" for cls in train['classes']]
+            selected_class = st.radio(
+                "Select Class",
+                options=class_options,
+                key=f"train_{train['train_number']}_class"
+            )
+
+            selected_class_name = selected_class.split(' (')[0] if selected_class else None
+
+            if st.button("Book Now", key=f"book_{train['train_number']}"):
+                st.session_state.train_name=train['train_name']
+                st.session_state.train_number=train['train_number']
+                st.session_state.train_tier=selected_class_name
+                st.session_state.number_of_seats=number_of_seats
+                for cls in train['classes']:
+                    if cls['name']==selected_class_name:
+                        st.session_state.price=cls['fare']*number_of_seats
+                st.switch_page('pages/confirm_train_booking.py')
+                
+
 
 if __name__ == "__main__":
     book_train()

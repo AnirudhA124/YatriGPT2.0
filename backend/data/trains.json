@@ -11,7 +11,7 @@
             "classes": [
                 {
                     "name": "AC Chair Car",
-                    "available": 10,
+                    "available": 12,
                     "fare": 1200
                 }
             ]
@@ -27,12 +27,33 @@
             "classes": [
                 {
                     "name": "AC 2 Tier",
+                    "available": 6,
+                    "fare": 1500
+                },
+                {
+                    "name": "AC 3 Tier",
+                    "available": 6,
+                    "fare": 1000
+                }
+            ]
+        },
+        {
+            "train_number": "12331",
+            "train_name": "Delhi Express",
+            "from": "Delhi",
+            "to": "Goa",
+            "departure": "2025-06-17T16:55:00",
+            "arrival": "2025-06-18T09:15:00",
+            "travel_time": "16h 20m",
+            "classes": [
+                {
+                    "name": "AC 2 Tier",
                     "available": 5,
                     "fare": 1500
                 },
                 {
                     "name": "AC 3 Tier",
-                    "available": 8,
+                    "available": 9,
                     "fare": 1000
                 }
             ]

@@ -140,7 +140,7 @@ def book_train(num_seats: int, train_num: str, tier: str):
                     if cls['available'] >= num_seats:  # Fixed condition
                         cls['available'] -= num_seats
                         save_train_data(all_trains)
-                        return cls['fare']*num_seats
+                        return True
                     else:
                         return False
             # Class not found in train
