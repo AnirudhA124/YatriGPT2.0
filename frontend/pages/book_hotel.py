@@ -6,7 +6,7 @@ project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..
 if project_root not in sys.path:
     sys.path.append(project_root)
 
-from backend.services.utils.helpers import get_hotels, save_hotels
+from backend.services.utils.helpers import get_hotels
 from backend.services.utils.validators import is_valid_phone
 from sidebar import render_sidebar
 
@@ -50,7 +50,14 @@ st.markdown("""
 def book_hotel():
     if "selected_hotel_id" not in st.session_state:
         st.session_state.selected_hotel_id = None
-        
+        st.session_state.hotel_id= None
+        st.session_state.hotel_name=""
+        st.session_state.num_guests=""
+        st.session_state.guests_names=[]
+        st.session_state.price=None
+        st.session_state.check_in=None
+        st.session_state.check_out=None
+
     if not st.session_state.get('logged_in'):
         st.switch_page("main.py")
     render_sidebar()
@@ -63,6 +70,8 @@ def book_hotel():
     places_name = [place['name'] for place in hotel_data['places']]
     selected_place = st.selectbox("Select a place", places_name)
     number_of_guests=st.selectbox("Number of Guests",[1,2,3,4,5,6,7,8,9,10])
+    check_in_date=st.date_input("Check In",value="today")
+    check_out_date=st.date_input("Check Out",value="today")
     selected_place_data = None
     for place in hotel_data['places']:
         if place['name'] == selected_place:
@@ -130,13 +139,20 @@ def book_hotel():
                         phone_number = st.text_input("Phone Number", placeholder="Enter phone number")
                         submit = st.form_submit_button("Submit")
                         if submit:
-                            if main_guest_name and number_of_guests and guest_name and phone_number:
+                            all_names_filled = all(name.strip() for name in guest_names)
+                            if main_guest_name and number_of_guests and all_names_filled and phone_number:
                                 if is_valid_phone(phone_number):
-                                    if save_hotels(username, hotel['id'], hotel['name'], selected_place, number_of_guests, guest_names, phone_number):
-                                        st.success(f"Booked hotel: {hotel['name']}")
-                                        st.session_state.selected_hotel_id = None  # Optionally reset
-                                    else:
-                                        st.error(f"Hotel not booked.")
+                                    delta = check_out_date - check_in_date 
+                                    st.session_state.hotel_id= hotel['id']
+                                    st.session_state.hotel_name=hotel['name']
+                                    st.session_state.num_guests=number_of_guests
+                                    st.session_state.guest_names=guest_names
+                                    st.session_state.price=str(int(hotel['price'])*delta.days)
+                                    st.session_state.check_in=check_in_date
+                                    st.session_state.check_out=check_out_date
+                                    print(st.session_state.hotel_id,st.session_state.hotel_name,st.session_state.num_guests,st.session_state.guest_names,st.session_state.price,st.session_state.check_in,st.session_state.check_out)
+                                    st.success(f"Booked hotel: {hotel['name']}")
+                                    st.session_state.selected_hotel_id = None  # Optionally reset
                                 else:
                                     st.error("Enter correct phone number.")
                             else:
