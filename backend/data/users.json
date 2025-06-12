@@ -8,5 +8,14 @@
       "Adventure",
       "Beaches"
     ]
+  },
+  "AnirudhA12345": {
+    "name": "Anirudh Agrawal",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$+VuwTSe8Q6WXV4I9ycZ/QA$pE5Wi5wRn4QoQhkq1tE59yE+apKyIHLziMzHYjztCQE",
+    "email": "agrawalanirudh18@gmail.com",
+    "phone_number": "9174741646",
+    "preferences": [
+      "Beaches"
+    ]
   }
 }

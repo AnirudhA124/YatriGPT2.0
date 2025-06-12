@@ -56,14 +56,25 @@ def save_hotels(username:str,hotel_id:int,hotel_name:str,place:str,num_guests:in
     """
     with open(HOTEL_BOOKINGS_DATA,'r') as f:
         all_bookings=json.load(f)
-    all_bookings[username]={
-        "hotel_id":hotel_id,
-        "hotel_name":hotel_name,
-        "place":place,
-        "num_guests":num_guests,
-        "guest_names":guest_names,
-        "phone_number":phone_number
-    }
+    if username not in all_bookings:
+        all_bookings[username]=[{
+            "hotel_id":hotel_id,
+            "hotel_name":hotel_name,
+            "place":place,
+            "num_guests":num_guests,
+            "guest_names":guest_names,
+            "phone_number":phone_number
+        }]
+    else:
+        list_hotels=all_bookings[username]
+        list_hotels.append({
+            "hotel_id":hotel_id,
+            "hotel_name":hotel_name,
+            "place":place,
+            "num_guests":num_guests,
+            "guest_names":guest_names,
+            "phone_number":phone_number
+        })
     try:
         with open(HOTEL_BOOKINGS_DATA,'w') as f:
             json.dump(all_bookings,f)
