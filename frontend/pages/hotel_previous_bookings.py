@@ -68,8 +68,8 @@ def previous_hotel_booking():
                         st.write(f'Check In Date:{hotel['check_in_date']}')
                         st.write(f'Check Out Date:{hotel['check_out_date']}')
                         st.write(f'Price: ₹{hotel['price']}')
-            else:
-                st.title("No Bookings Yet!")
+        if username not in all_hotel_booking:
+            st.title("No Bookings Yet!")
 
 if __name__=="__main__":
     previous_hotel_booking()

@@ -5,6 +5,7 @@ ph= PasswordHasher()
 
 HOTELS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\hotels.json"
 HOTEL_BOOKINGS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\hotel_bookings.json"
+TRAINS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\trains.json"
 
 def hash_password(password:str):
     """To hash password.
@@ -99,3 +100,50 @@ def get_hotel_booking():
     """
     with open(HOTEL_BOOKINGS_DATA,'r') as f:
         return json.load(f)
+
+
+def get_trains():
+    """Returns train data.
+
+    Returns:
+        json: returns json data for trains.
+    """
+    with open(TRAINS_DATA,'r') as f:
+        return json.load(f)
+
+def save_train_data(data):
+    """Save train data.
+
+    Args:
+        data (json): data to be saved.
+    """
+    with open(TRAINS_DATA,'w') as f:
+        json.dump(data,f)
+    
+def book_train(num_seats: int, train_num: str, tier: str):
+    """Book train with train number number of seats and tier.
+
+    Args:
+        num_seats (int): number of seats to book.
+        train_num (str): train number.
+        tier (str): tier ie AC3, AC2,etc.
+
+    Returns:
+        bool: Total fare if booked else False.
+    """
+    all_trains = get_trains()
+    
+    for train in all_trains['trains']:
+        if train['train_number'] == train_num:
+            for cls in train['classes']:
+                if cls['name'] == tier:  # Fixed comparison
+                    if cls['available'] >= num_seats:  # Fixed condition
+                        cls['available'] -= num_seats
+                        save_train_data(all_trains)
+                        return cls['fare']*num_seats
+                    else:
+                        return False
+            # Class not found in train
+            return False
+    # Train not found
+    return False

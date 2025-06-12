@@ -81,7 +81,7 @@ def home_page():
                 if card(title="Book Hotels",text="Book Hotels",key="hotels",image=book_hotel()):
                     st.switch_page('pages/book_hotel.py')
                 if card(title="Book Train",text="Book Trains",key="train",image=book_train()):
-                    pass
+                    st.switch_page('pages/book_train.py')
             with col2:
                 if card(title="Itinerary",text="Generate your itinerary",key="itinerary",image=itinerary()):
                     pass
