@@ -58,6 +58,8 @@ def book_hotel():
         st.session_state.price=None
         st.session_state.check_in=None
         st.session_state.check_out=None
+        st.session_state.place=""
+        st.session_state.phone_number=""
 
     if not st.session_state.get('logged_in'):
         st.switch_page("main.py")
@@ -151,7 +153,9 @@ def book_hotel():
                                     st.session_state.price=str(int(hotel['price'])*delta.days)
                                     st.session_state.check_in=check_in_date
                                     st.session_state.check_out=check_out_date
-                                    st.success(f"Booked hotel: {hotel['name']}")
+                                    st.session_state.place=selected_place
+                                    st.session_state.phone_number=phone_number
+                                    st.success(f"Details filled for: {hotel['name']}")
                                     st.session_state.selected_hotel_id = None  
                                     with st.spinner("Redirecting to confirm booking page..."):
                                         time.sleep(1)

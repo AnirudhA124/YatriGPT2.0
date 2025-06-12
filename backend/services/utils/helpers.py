@@ -39,20 +39,23 @@ def get_hotels():
     with open(HOTELS_DATA,'r') as f:
         return json.load(f)
     
-def save_hotels(username:str,hotel_id:int,hotel_name:str,place:str,num_guests:int,guest_names:list,phone_number:str):
-    """Add booking details to hotel_bookings.json
+def save_hotels(username:str,hotel_id:int,hotel_name:str,place:str,num_guests:int,guest_names:list,phone_number:str,price:str,check_in_date,check_out_date):
+    """Add Bookings to hotel_booking.json.
 
     Args:
-        username (str): user's username
-        hotel_id (int): hotel_id
-        hotel_name (str): hotel's name
-        place (str): place of visit
-        num_guests (int): number of guests
-        guest_names (list): names of guests
-        phone_number (str): phone number
+        username (str): User's username.
+        hotel_id (int): Hotel Id for booked hotel.
+        hotel_name (str): Hotel Name.
+        place (str): place of visit.
+        num_guests (int): Number of guests.
+        guest_names (list): guests names.
+        phone_number (str): user's phone number.
+        price (str): price of hotel.
+        check_in_date (Date): check in date.
+        check_out_date (Date): check out date.
 
     Returns:
-        bool: True if entered else False
+        bool: True if booked else False.
     """
     with open(HOTEL_BOOKINGS_DATA,'r') as f:
         all_bookings=json.load(f)
@@ -63,9 +66,12 @@ def save_hotels(username:str,hotel_id:int,hotel_name:str,place:str,num_guests:in
             "place":place,
             "num_guests":num_guests,
             "guest_names":guest_names,
-            "phone_number":phone_number
+            "phone_number":phone_number,
+            "price":price,
+            "check_in_date":check_in_date,
+            "check_out_date":check_out_date
         }]
-    else:
+    elif username in all_bookings:
         list_hotels=all_bookings[username]
         list_hotels.append({
             "hotel_id":hotel_id,
@@ -73,7 +79,10 @@ def save_hotels(username:str,hotel_id:int,hotel_name:str,place:str,num_guests:in
             "place":place,
             "num_guests":num_guests,
             "guest_names":guest_names,
-            "phone_number":phone_number
+            "phone_number":phone_number,
+            "price":price,
+            "check_in_date":check_in_date,
+            "check_out_date":check_out_date
         })
     try:
         with open(HOTEL_BOOKINGS_DATA,'w') as f:
