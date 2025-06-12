@@ -1,6 +1,7 @@
 import os
 import sys
 import streamlit as st
+import time
 
 project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 if project_root not in sys.path:
@@ -150,9 +151,11 @@ def book_hotel():
                                     st.session_state.price=str(int(hotel['price'])*delta.days)
                                     st.session_state.check_in=check_in_date
                                     st.session_state.check_out=check_out_date
-                                    print(st.session_state.hotel_id,st.session_state.hotel_name,st.session_state.num_guests,st.session_state.guest_names,st.session_state.price,st.session_state.check_in,st.session_state.check_out)
                                     st.success(f"Booked hotel: {hotel['name']}")
-                                    st.session_state.selected_hotel_id = None  # Optionally reset
+                                    st.session_state.selected_hotel_id = None  
+                                    with st.spinner("Redirecting to confirm booking page..."):
+                                        time.sleep(1)
+                                    st.switch_page('pages/confirm_hotel_booking.py')
                                 else:
                                     st.error("Enter correct phone number.")
                             else:
