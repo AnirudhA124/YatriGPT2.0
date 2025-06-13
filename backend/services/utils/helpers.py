@@ -254,3 +254,12 @@ def book_flight(username:str,airline:str,source:str,destination:str,num_guests:i
         return True
     except:
         return False
+
+def get_flight_bookings():
+    """Returns flight booking data.
+
+    Returns:
+        json: fliht booking data is retuened
+    """
+    with open(FLIGHTS_BOOKING_DATA,'r') as f:
+        return json.load(f)

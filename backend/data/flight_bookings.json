@@ -1,1 +1,12 @@
-{"AnirudhA124": [{"airline": "IndiGo", "from": "Jaipur", "to": "Goa", "number_of_guests": 2, "price": 6426, "travel_date": "2025-06-14"}]}
+{
+    "AnirudhA124": [
+        {
+            "airline": "IndiGo",
+            "from": "Jaipur",
+            "to": "Goa",
+            "number_of_guests": 2,
+            "price": 6426,
+            "travel_date": "2025-06-14"
+        }
+    ]
+}
