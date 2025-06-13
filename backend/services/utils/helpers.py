@@ -276,6 +276,16 @@ def get_itineraries():
         return json.load(f)
     
 def save_trip_plan(username:str,place:str,itinerary:list):
+    """Save trip plans 
+
+    Args:
+        username (str): user's username
+        place (str): place of visit
+        itinerary (list): itinerary
+
+    Returns:
+        bool: True if saved else False.
+    """
     with open(TRIP_PLANS,'r') as f:
         all_trips=json.load(f)
     if username not in all_trips:
@@ -295,3 +305,12 @@ def save_trip_plan(username:str,place:str,itinerary:list):
         return True
     except:
         return False
+
+def get_trip_history():
+    """returns trip history data.
+
+    Returns:
+        json: trip history.
+    """
+    with open(TRIP_PLANS,'r') as f:
+        return json.load(f)

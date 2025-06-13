@@ -80,7 +80,7 @@ def previous_bookings():
                     st.switch_page('pages/train_previous_booking.py')
             with col2:
                 if card(title="Plans",text="View yor Plans Here",key="plans",image=activities()):
-                    pass
+                    st.switch_page('pages/trip_history.py')
                 if card("Flights Bookings",text="View yor Flight Bookings Here",key="flight",image=book_flight()):
                     st.switch_page('pages/flight_previous_booking.py')
 

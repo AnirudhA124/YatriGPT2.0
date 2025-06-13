@@ -1,1 +1,21 @@
-{}
+{
+    "AnirudhA124": [
+        {
+            "place": "Shimla",
+            "itinerary": [
+                "Visit Viceregal Lodge and Mall Road. Trek to Jakhu Temple.",
+                "Day trip to Kufri and Himalayan Nature Park. Visit Christ Church.",
+                "Explore Shimla State Museum, The Ridge, and Lakkar Bazaar."
+            ]
+        },
+        {
+            "place": "Goa",
+            "itinerary": [
+                "Morning: Arrive in North Goa. Visit Calangute Beach for sunbathing and water sports.",
+                "Afternoon: Explore Anjuna Beach and enjoy lunch at a beach shack.",
+                "Late Afternoon: Visit Chapora Fort for scenic views.",
+                "Evening: Explore Basilica of Bom Jesus in Old Goa. Option: Sunset at Divar Island."
+            ]
+        }
+    ]
+}
