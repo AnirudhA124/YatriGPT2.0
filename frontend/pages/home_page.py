@@ -75,7 +75,7 @@ def home_page():
 
         # Show spinner while loading cards
         with st.spinner('Loading booking options...'):            
-            col1,col2,col3=st.columns(3)
+            col1,col2=st.columns(2)
 
             with col1:
                 if card(title="Book Hotels",text="Book Hotels",key="hotels",image=book_hotel()):
@@ -86,12 +86,7 @@ def home_page():
                 if card(title="Itinerary",text="Generate your itinerary",key="itinerary",image=itinerary()):
                     pass
                 if card("Book Flights",text="Book flights",key="flight",image=book_flight()):
-                    pass
-            with col3:
-                if card(title="Nearby Restaurants",text="Reserve your seat",key="restaurant",image=restaurants()):
-                    pass
-                if card(title="Activities",text="Book exciting activities",key="activities",image=activities()):
-                    pass
+                    st.switch_page('pages/book_flight.py')
 
 if __name__ == "__main__":
     home_page()

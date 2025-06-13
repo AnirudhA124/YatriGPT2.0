@@ -7,6 +7,8 @@ HOTELS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backen
 HOTEL_BOOKINGS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\hotel_bookings.json"
 TRAINS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\trains.json"
 TRAIN_BOOKINGS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\train_bookings.json"
+FLIGHTS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\flights.json"
+FLIGHTS_BOOKING_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\flight_bookings.json"
 
 def hash_password(password:str):
     """To hash password.
@@ -200,3 +202,55 @@ def get_train_bookings():
     """
     with open(TRAIN_BOOKINGS_DATA,'r') as f:
         return json.load(f)
+
+def get_flights():
+    """Returns flight data.
+
+    Returns:
+        json: returns flight data.
+    """
+    with open(FLIGHTS_DATA,'r') as f:
+        return json.load(f)
+
+def book_flight(username:str,airline:str,source:str,destination:str,num_guests:int,price:str,travel_date):
+    """Books flight and add data in flught_bookings.json
+
+    Args:
+        username (str): user's username.
+        airline (str): airlines by which user will travel.
+        source (str): source.
+        destination (str): destination.
+        num_guests (int): number of passengers along with user.
+        price (str): total price of tickets.
+        travel_date (_type_): travel date.
+
+    Returns:
+        bool: True if booked else false.
+    """
+    with open(FLIGHTS_BOOKING_DATA,'r') as f:
+        all_bookings=json.load(f)
+    if username not in all_bookings:
+        all_bookings[username]=[{
+            "airline":airline,
+            "from":source,
+            "to":destination,
+            "number_of_guests":num_guests,
+            "price":price,
+            "travel_date":travel_date
+        }]
+    elif username in all_bookings:
+        list_flights=all_bookings[username]
+        list_flights.append({
+            "airline":airline,
+            "from":source,
+            "to":destination,
+            "number_of_guests":num_guests,
+            "price":price,
+            "travel_date":travel_date
+        })
+    try:
+        with open(FLIGHTS_BOOKING_DATA,'w') as f:
+            json.dump(all_bookings,f)
+        return True
+    except:
+        return False
