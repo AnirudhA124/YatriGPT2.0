@@ -9,6 +9,8 @@ TRAINS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backen
 TRAIN_BOOKINGS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\train_bookings.json"
 FLIGHTS_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\flights.json"
 FLIGHTS_BOOKING_DATA=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\flight_bookings.json"
+ITINERARIES=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\itineraries.json"
+TRIP_PLANS=r"C:\Users\Anirudh\Desktop\Python Internship\Project\YatriGPT\backend\data\trip_plans.json"
 
 def hash_password(password:str):
     """To hash password.
@@ -263,3 +265,33 @@ def get_flight_bookings():
     """
     with open(FLIGHTS_BOOKING_DATA,'r') as f:
         return json.load(f)
+
+def get_itineraries():
+    """Returns Json data for itineraries.
+
+    Returns:
+        json: returns Json data for itineraries.
+    """
+    with open(ITINERARIES,'r') as f:
+        return json.load(f)
+    
+def save_trip_plan(username:str,place:str,itinerary:list):
+    with open(TRIP_PLANS,'r') as f:
+        all_trips=json.load(f)
+    if username not in all_trips:
+        all_trips[username]=[{
+            "place":place,
+            "itinerary":itinerary
+        }]
+    elif username in all_trips:
+        list_trips=all_trips[username]
+        list_trips.append({
+            "place":place,
+            "itinerary":itinerary
+        })
+    try:
+        with open(TRIP_PLANS,'w') as f:
+            json.dump(all_trips,f)
+        return True
+    except:
+        return False

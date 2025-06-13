@@ -1,0 +1,209 @@
+{
+  "Goa": {
+    "1": [
+      "Morning: Arrive in North Goa. Visit Calangute Beach for sunbathing and water sports.",
+      "Afternoon: Explore Anjuna Beach and enjoy lunch at a beach shack.",
+      "Late Afternoon: Visit Chapora Fort for scenic views.",
+      "Evening: Explore Basilica of Bom Jesus in Old Goa. Option: Sunset at Divar Island."
+    ],
+    "2": [
+      "Arrive in North Goa. Visit Arambol Beach and relax. Explore Fontainhas and Sao Tome for Portuguese heritage. Visit Church of Our Lady of the Immaculate Conception. Spend evening at Calangute or Candolim Beach. Optionally, visit Se Cathedral and Basilica of Bom Jesus.",
+      "Morning at Butterfly Beach for tranquility. Visit Palolem Beach for sunbathing and water activities. Explore Colva Beach. Optionally, visit Dudhsagar Waterfall for a scenic trip."
+    ],
+    "3": [
+      "Arrival in Goa. Visit Old Goa (Basilica of Bom Jesus, Se Cathedral). Explore Panjim and enjoy local cuisine.",
+      "Beach hopping at Calangute, Baga, and Anjuna. Try water sports. Enjoy nightlife at popular clubs.",
+      "Visit Fort Aguada and Chapora Fort. Enjoy sunset at Vagator Beach. Departure or relax."
+    ],
+    "4": [
+      "Arrival. Relax at Calangute or Baga Beach. Enjoy sunset dinner at a beachside restaurant.",
+      "Visit Basilica of Bom Jesus and Se Cathedral. Explore Fort Aguada.",
+      "Take a trip to Dudhsagar Waterfall. Enjoy a spice plantation tour with lunch.",
+      "Explore South Goa beaches: Palolem, Agonda, and Butterfly Beach."
+    ],
+    "5": [
+      "Arrival. Explore Panjim and Old Goa (Basilica of Bom Jesus, Se Cathedral).",
+      "North Goa sightseeing: beaches (Calangute, Baga, Anjuna), forts (Aguada, Chapora).",
+      "South Goa sightseeing: Palolem, Agonda, Butterfly Beach, heritage sites.",
+      "Leisure day: water sports, shopping, night markets.",
+      "Final beach day or water activity. Departure."
+    ]
+  },
+  "Shimla": {
+    "1": [
+      "Morning: Visit The Ridge and Lakkar Bazaar for shopping.",
+      "Late Morning: Trek to Jakhu Temple for panoramic views.",
+      "Afternoon: Stroll on Mall Road. Visit Chadwick Falls and Glen.",
+      "Evening: Explore local cuisine and relax."
+    ],
+    "2": [
+      "Visit Viceregal Lodge for colonial history. Walk on Mall Road. Trek to Jakhu Temple.",
+      "Day trip to Kufri for horse riding and Himalayan Nature Park. Visit Christ Church and Lakkar Bazaar."
+    ],
+    "3": [
+      "Visit Viceregal Lodge and Mall Road. Trek to Jakhu Temple.",
+      "Day trip to Kufri and Himalayan Nature Park. Visit Christ Church.",
+      "Explore Shimla State Museum, The Ridge, and Lakkar Bazaar."
+    ],
+    "4": [
+      "Arrival. Walk on Mall Road and The Ridge. Visit Christ Church.",
+      "Day trip to Kufri and Himalayan Nature Park.",
+      "Visit Chail and Mashobra for offbeat experiences.",
+      "Day trip to Narkanda for scenic views and local sightseeing."
+    ],
+    "5": [
+      "Arrival. Explore Mall Road, The Ridge, and Christ Church.",
+      "Day trip to Kufri and Himalayan Nature Park.",
+      "Visit Chail and Mashobra.",
+      "Day trip to Narkanda for scenic views and offbeat exploration.",
+      "Leisure, shopping, and departure."
+    ]
+  },
+  "Jaipur": {
+    "1": [
+      "Morning: Visit Amber Fort for history and architecture.",
+      "Noon: Explore City Palace and Jantar Mantar.",
+      "Afternoon: Visit Hawa Mahal and shop at Bapu Bazaar.",
+      "Evening: Enjoy sunset at Nahargarh Fort. Dinner at a rooftop restaurant."
+    ],
+    "2": [
+      "Visit Amber Fort, City Palace, Jantar Mantar, Hawa Mahal, and Bapu Bazaar.",
+      "Explore Nahargarh Fort, Albert Hall Museum, Birla Mandir, and Chokhi Dhani."
+    ],
+    "3": [
+      "Visit Amber Fort, City Palace, and Jantar Mantar.",
+      "Explore Nahargarh Fort, Chokhi Dhani, Albert Hall Museum, and Birla Mandir.",
+      "Visit Galta Ji Temple, Sisodia Rani Garden, and Jal Mahal."
+    ],
+    "4": [
+      "Arrival. Visit City Palace, Hawa Mahal, Govind Devji Temple, Jantar Mantar, and Central Museum.",
+      "Visit Raj Mandir, Amber Fort, Jal Mahal, and Panna Meena Ka Kund.",
+      "Explore Birla Planetarium, Birla Mandir, and Hathigaon.",
+      "Shopping at Bapu Bazaar and Johari Bazaar."
+    ],
+    "5": [
+      "Arrival. Visit City Palace, Hawa Mahal, and Jantar Mantar.",
+      "Explore Amber Fort, Jal Mahal, and Panna Meena Ka Kund.",
+      "Visit Nahargarh Fort, Albert Hall Museum, and Birla Mandir.",
+      "Experience Chokhi Dhani and local markets.",
+      "Visit Sisodia Rani Garden and Galta Ji Temple. Departure."
+    ]
+  },
+  "Darjeeling": {
+    "1": [
+      "Early Morning: Sunrise at Tiger Hill. Visit Ghoom Monastery and Batasia Loop.",
+      "Morning: Visit Padmaja Naidu Himalayan Zoological Park and Himalayan Mountaineering Institute.",
+      "Afternoon: Explore a tea garden and Japanese Peace Pagoda.",
+      "Evening: Stroll on Mall Road."
+    ],
+    "2": [
+      "Arrival. Walk on Mall Road. Enjoy toy train ride and ropeway.",
+      "Sunrise at Tiger Hill. Visit Ghoom Monastery, Batasia Loop, Zoological Park, and Japanese Peace Pagoda."
+    ],
+    "3": [
+      "Arrival. Walk on Mall Road. Enjoy toy train ride and ropeway.",
+      "Sunrise at Tiger Hill. Visit Ghoom Monastery, Batasia Loop, and Zoological Park.",
+      "Visit tea garden, Japanese Peace Pagoda, Himalayan Mountaineering Institute, and shopping."
+    ],
+    "4": [
+      "Arrival. Walk on Mall Road. Enjoy toy train ride and ropeway.",
+      "Sunrise at Tiger Hill. Visit Ghoom Monastery, Batasia Loop, and Zoological Park.",
+      "Day trip to Mirik, Sumendu Lake, and tea gardens.",
+      "Visit Japanese Peace Pagoda, Dali Monastery, and shopping."
+    ],
+    "5": [
+      "Arrival. Walk on Mall Road. Enjoy toy train ride and ropeway.",
+      "Sunrise at Tiger Hill. Visit Ghoom Monastery, Batasia Loop, and Zoological Park.",
+      "Day trip to Mirik, Sumendu Lake, and tea gardens.",
+      "Visit Japanese Peace Pagoda, Dali Monastery, and shopping.",
+      "Leisure and departure."
+    ]
+  },
+  "Kerala": {
+    "1": [
+      "Morning: Arrive in Kochi. Visit Fort Kochi and Chinese Fishing Nets.",
+      "Afternoon: Explore Jew Town and Mattancherry Palace.",
+      "Evening: Enjoy local cuisine and relax."
+    ],
+    "2": [
+      "Arrive in Kochi. Visit Fort Kochi, Chinese Fishing Nets, and Mattancherry Palace.",
+      "Travel to Munnar. Explore tea gardens and waterfalls."
+    ],
+    "3": [
+      "Arrive in Kochi. Visit Fort Kochi, Chinese Fishing Nets, and Mattancherry Palace.",
+      "Travel to Munnar. Explore tea gardens and waterfalls.",
+      "Travel to Thekkady. Enjoy wildlife safari and spice plantation tour."
+    ],
+    "4": [
+      "Arrive in Kochi. Visit Fort Kochi, Chinese Fishing Nets, and Mattancherry Palace.",
+      "Travel to Munnar. Explore tea gardens and waterfalls.",
+      "Travel to Thekkady. Enjoy wildlife safari and spice plantation tour.",
+      "Travel to Alleppey. Experience houseboat cruise on the backwaters."
+    ],
+    "5": [
+      "Arrive in Kochi. Visit Fort Kochi, Chinese Fishing Nets, and Mattancherry Palace.",
+      "Travel to Munnar. Explore tea gardens and waterfalls.",
+      "Travel to Thekkady. Enjoy wildlife safari and spice plantation tour.",
+      "Travel to Alleppey. Experience houseboat cruise on the backwaters.",
+      "Travel to Varkala or Trivandrum. Enjoy beaches and temples. Departure."
+    ]
+  },
+  "Delhi": {
+    "1": [
+      "Morning: Visit Red Fort, Jama Masjid, and Chandni Chowk.",
+      "Afternoon: Visit India Gate, Rashtrapati Bhavan (outside), and Parliament.",
+      "Evening: Visit Humayun’s Tomb or Qutub Minar."
+    ],
+    "2": [
+      "Visit Red Fort, Jama Masjid, Chandni Chowk, and India Gate.",
+      "Visit Qutub Minar, Humayun’s Tomb, and Lotus Temple."
+    ],
+    "3": [
+      "Visit Red Fort, Jama Masjid, Chandni Chowk, and India Gate.",
+      "Visit Qutub Minar, Humayun’s Tomb, and Lotus Temple.",
+      "Visit Akshardham, National Museum, and shopping at Dilli Haat."
+    ],
+    "4": [
+      "Visit Red Fort, Jama Masjid, Chandni Chowk, and India Gate.",
+      "Visit Qutub Minar, Humayun’s Tomb, and Lotus Temple.",
+      "Visit Akshardham and National Museum.",
+      "Explore Hauz Khas Village, Lodi Gardens, and shopping at Dilli Haat."
+    ],
+    "5": [
+      "Visit Red Fort, Jama Masjid, Chandni Chowk, and India Gate.",
+      "Visit Qutub Minar, Humayun’s Tomb, and Lotus Temple.",
+      "Visit Akshardham and National Museum.",
+      "Explore Hauz Khas Village, Lodi Gardens, and shopping at Dilli Haat.",
+      "Leisure, local markets, and departure."
+    ]
+  },
+  "Indore": {
+    "1": [
+      "Morning: Visit Rajwada Palace and Lal Bagh Palace.",
+      "Afternoon: Explore Sarafa Bazaar and Chappan Dukan for street food.",
+      "Evening: Visit Kanch Mandir and Annapurna Temple."
+    ],
+    "2": [
+      "Visit Rajwada Palace, Lal Bagh Palace, Sarafa Bazaar, and Chappan Dukan.",
+      "Visit Kanch Mandir, Patalpani Waterfall, and Annapurna Temple."
+    ],
+    "3": [
+      "Visit Rajwada Palace, Lal Bagh Palace, and Sarafa Bazaar.",
+      "Visit Kanch Mandir, Patalpani Waterfall, and Chappan Dukan.",
+      "Visit Annapurna Temple, Ralamandal Wildlife Sanctuary, and enjoy local food tour."
+    ],
+    "4": [
+      "Visit Rajwada Palace, Lal Bagh Palace, and Sarafa Bazaar.",
+      "Visit Kanch Mandir, Patalpani Waterfall, and Chappan Dukan.",
+      "Visit Annapurna Temple and Ralamandal Wildlife Sanctuary.",
+      "Explore local markets, food tour, and leisure."
+    ],
+    "5": [
+      "Visit Rajwada Palace, Lal Bagh Palace, and Sarafa Bazaar.",
+      "Visit Kanch Mandir, Patalpani Waterfall, and Chappan Dukan.",
+      "Visit Annapurna Temple and Ralamandal Wildlife Sanctuary.",
+      "Explore local markets, food tour, and leisure.",
+      "Departure."
+    ]
+  }
+}

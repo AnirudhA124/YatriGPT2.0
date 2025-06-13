@@ -17,5 +17,15 @@
     "preferences": [
       "Beaches"
     ]
+  },
+  "Shivam@123": {
+    "name": "Shivam Bhai",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$FDeJhfMAbcaDZD45L67D+g$9x41LHc3pXdAQmips/IvAS8Ab/xhnd1xH7cQNuPBqso",
+    "email": "S@gmail.com",
+    "phone_number": "9999999999",
+    "preferences": [
+      "Adventure",
+      "Temples"
+    ]
   }
 }
