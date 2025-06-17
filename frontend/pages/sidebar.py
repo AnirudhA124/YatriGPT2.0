@@ -58,6 +58,8 @@ def render_sidebar():
         
         if st.button("Previous Bookings", use_container_width=True):
             st.switch_page('pages/previous_booking.py')
+        if st.button("Home Page",use_container_width=True):
+            st.switch_page('pages/home_page.py')
         if st.button("Logout", use_container_width=True):
             st.session_state.logged_in = False
             st.session_state.username = ""

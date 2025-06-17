@@ -214,7 +214,7 @@ def get_flights():
     with open(FLIGHTS_DATA,'r') as f:
         return json.load(f)
 
-def book_flight(username:str,airline:str,source:str,destination:str,num_guests:int,price:str,travel_date):
+def book_flight(username:str,airline:str,source:str,destination:str,num_guests:int,price:str,travel_date,guest_names:list):
     """Books flight and add data in flught_bookings.json
 
     Args:
@@ -225,6 +225,8 @@ def book_flight(username:str,airline:str,source:str,destination:str,num_guests:i
         num_guests (int): number of passengers along with user.
         price (str): total price of tickets.
         travel_date (_type_): travel date.
+        guest_names(str): guest names
+        phone_number(str): phone number
 
     Returns:
         bool: True if booked else false.
@@ -237,6 +239,7 @@ def book_flight(username:str,airline:str,source:str,destination:str,num_guests:i
             "from":source,
             "to":destination,
             "number_of_guests":num_guests,
+            "guest_names":guest_names,
             "price":price,
             "travel_date":travel_date
         }]
@@ -247,6 +250,7 @@ def book_flight(username:str,airline:str,source:str,destination:str,num_guests:i
             "from":source,
             "to":destination,
             "number_of_guests":num_guests,
+            "guest_names":guest_names,
             "price":price,
             "travel_date":travel_date
         })

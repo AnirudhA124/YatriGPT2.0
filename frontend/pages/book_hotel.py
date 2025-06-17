@@ -124,7 +124,10 @@ def book_hotel():
 
                 # Clicking "Book" sets the selected_hotel_id
                 if st.button("Book", key=f"book_{hotel['id']}"):
-                    st.session_state.selected_hotel_id = hotel['id']
+                    if check_in_date<=check_out_date:
+                        st.session_state.selected_hotel_id = hotel['id']
+                    else:
+                        st.error("Check out date is prior to check in date.")
 
                 # Show the form only for the selected hotel
                 if st.session_state.selected_hotel_id == hotel['id']:

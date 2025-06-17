@@ -67,21 +67,21 @@ def previous_bookings():
                 custom_html, 
                 unsafe_allow_html=True
             )
-        st.title(f"Welcome {name}")
+        st.title(f"Booking History")
 
         # Show spinner while loading cards
         with st.spinner('Loading booking options...'):            
             col1,col2=st.columns(2)
 
             with col1:
-                if card(title="Hotels Bookings",text="View yor Hotel Bookings Here",key="hotels",image=book_hotel()):
+                if card(title="Hotels Bookings",text="View your Hotel Bookings Here",key="hotels",image=book_hotel()):
                     st.switch_page('pages/hotel_previous_bookings.py')
-                if card(title="Train Bookings",text="View yor Train Bookings Here",key="train",image=book_train()):
+                if card(title="Train Bookings",text="View your Train Bookings Here",key="train",image=book_train()):
                     st.switch_page('pages/train_previous_booking.py')
             with col2:
-                if card(title="Plans",text="View yor Plans Here",key="plans",image=activities()):
+                if card(title="Plans",text="View your Plans Here",key="plans",image=activities()):
                     st.switch_page('pages/trip_history.py')
-                if card("Flights Bookings",text="View yor Flight Bookings Here",key="flight",image=book_flight()):
+                if card("Flights Bookings",text="View your Flight Bookings Here",key="flight",image=book_flight()):
                     st.switch_page('pages/flight_previous_booking.py')
 
 if __name__ == "__main__":

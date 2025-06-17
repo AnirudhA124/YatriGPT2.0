@@ -64,6 +64,9 @@ def previous_flight_booking():
                         st.markdown(f"**From:** {booking['from']}")
                         st.markdown(f"**To:** {booking['to']}")
                         st.markdown(f"**Number of Seats:** {booking['number_of_guests']}")
+                        st.markdown(f"**Passengers:** ")
+                        for i in booking['guest_names']:
+                            st.markdown(f" - {i}")
                         st.markdown(f"**Travel Date:** {booking['travel_date']}")
                         st.markdown(f"**Price:** {booking['price']}")
         if username not in all_flight_booking:

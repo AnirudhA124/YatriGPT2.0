@@ -51,6 +51,7 @@ def confirm_flight_booking():
     if not st.session_state.get('logged_in'):
         st.switch_page("main.py")
     else:
+        guests=st.session_state.guests_names
         username=st.session_state.username
         airline=st.session_state.flight_airline
         source=st.session_state.source
@@ -63,13 +64,16 @@ def confirm_flight_booking():
             st.title(f"Confirm your Booking for {airline}:")
             st.text(f"Airline:{airline}")
             st.text(f"Number of guests:{number_of_seats}")
+            st.text(f"Name of guest:")
+            for i in guests:
+                st.text(i)
             st.text(f"From: {source}")
             st.text(f"To: {destination}")
             st.text(f"Travel Date:{travel_date}")
             st.text(f"Price:{price}")
             submit=st.form_submit_button("Confirm Booking & Pay Now")
             if submit:
-                if book_flight(username,airline,source,destination,number_of_seats,price,travel_date.isoformat() if hasattr(travel_date, 'isoformat') else str(travel_date)):
+                if book_flight(username,airline,source,destination,number_of_seats,price,travel_date.isoformat() if hasattr(travel_date, 'isoformat') else str(travel_date),guests):
                     st.success("Booking is confirmed.")
                     with st.spinner("Redirecting to home page...."):
                         time.sleep(1)

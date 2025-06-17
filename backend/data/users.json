@@ -27,5 +27,15 @@
       "Adventure",
       "Temples"
     ]
+  },
+  "GatikIntern@123": {
+    "name": "Gatik Kaushik",
+    "password": "$argon2id$v=19$m=65536,t=3,p=4$XqVbUMYyM+8+jXrqPSwOQA$oDZQ2K7mbOl4YJgPA2rDtSbRqf17vOTggRP/BxyHvBM",
+    "email": "GatikK1@gmail.com",
+    "phone_number": "9998887776",
+    "preferences": [
+      "Beaches",
+      "Adventure"
+    ]
   }
 }

@@ -1,0 +1,5294 @@
+[
+  {
+    "flight_id": 1,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-17 09:30",
+    "arrival": "2025-06-17 10:30",
+    "airline": "GoAir",
+    "fare": 5298
+  },
+  {
+    "flight_id": 2,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-17 19:30",
+    "arrival": "2025-06-17 23:30",
+    "airline": "SpiceJet",
+    "fare": 7039
+  },
+  {
+    "flight_id": 3,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-17 20:15",
+    "arrival": "2025-06-18 00:30",
+    "airline": "SpiceJet",
+    "fare": 5909
+  },
+  {
+    "flight_id": 4,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-17 09:30",
+    "arrival": "2025-06-17 11:15",
+    "airline": "Vistara",
+    "fare": 6290
+  },
+  {
+    "flight_id": 5,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 13:30",
+    "arrival": "2025-06-17 14:30",
+    "airline": "IndiGo",
+    "fare": 5129
+  },
+  {
+    "flight_id": 6,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 11:45",
+    "arrival": "2025-06-17 14:45",
+    "airline": "Vistara",
+    "fare": 6139
+  },
+  {
+    "flight_id": 7,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-17 10:15",
+    "arrival": "2025-06-17 15:00",
+    "airline": "Air India",
+    "fare": 4799
+  },
+  {
+    "flight_id": 8,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-17 20:30",
+    "arrival": "2025-06-17 23:30",
+    "airline": "Vistara",
+    "fare": 5592
+  },
+  {
+    "flight_id": 9,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-17 14:00",
+    "arrival": "2025-06-17 17:45",
+    "airline": "GoAir",
+    "fare": 5488
+  },
+  {
+    "flight_id": 10,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-17 08:45",
+    "arrival": "2025-06-17 10:15",
+    "airline": "GoAir",
+    "fare": 6864
+  },
+  {
+    "flight_id": 11,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-17 08:15",
+    "arrival": "2025-06-17 11:15",
+    "airline": "Vistara",
+    "fare": 6321
+  },
+  {
+    "flight_id": 12,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-17 08:45",
+    "arrival": "2025-06-17 13:15",
+    "airline": "SpiceJet",
+    "fare": 2333
+  },
+  {
+    "flight_id": 13,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-17 10:00",
+    "arrival": "2025-06-17 14:45",
+    "airline": "IndiGo",
+    "fare": 5405
+  },
+  {
+    "flight_id": 14,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-17 14:45",
+    "arrival": "2025-06-17 15:45",
+    "airline": "SpiceJet",
+    "fare": 7466
+  },
+  {
+    "flight_id": 15,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-17 10:15",
+    "arrival": "2025-06-17 12:30",
+    "airline": "Vistara",
+    "fare": 2797
+  },
+  {
+    "flight_id": 16,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-17 11:45",
+    "arrival": "2025-06-17 13:45",
+    "airline": "Vistara",
+    "fare": 6548
+  },
+  {
+    "flight_id": 17,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 18:30",
+    "arrival": "2025-06-17 23:15",
+    "airline": "Vistara",
+    "fare": 7438
+  },
+  {
+    "flight_id": 18,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 16:45",
+    "arrival": "2025-06-17 19:00",
+    "airline": "IndiGo",
+    "fare": 7340
+  },
+  {
+    "flight_id": 19,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-17 11:15",
+    "arrival": "2025-06-17 14:15",
+    "airline": "SpiceJet",
+    "fare": 7269
+  },
+  {
+    "flight_id": 20,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-17 10:15",
+    "arrival": "2025-06-17 14:15",
+    "airline": "Vistara",
+    "fare": 2566
+  },
+  {
+    "flight_id": 21,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-17 13:00",
+    "arrival": "2025-06-17 17:15",
+    "airline": "Air India",
+    "fare": 5676
+  },
+  {
+    "flight_id": 22,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-17 10:15",
+    "arrival": "2025-06-17 12:15",
+    "airline": "GoAir",
+    "fare": 2858
+  },
+  {
+    "flight_id": 23,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-17 19:00",
+    "arrival": "2025-06-17 22:45",
+    "airline": "Air India",
+    "fare": 6505
+  },
+  {
+    "flight_id": 24,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-17 11:30",
+    "arrival": "2025-06-17 13:15",
+    "airline": "IndiGo",
+    "fare": 4068
+  },
+  {
+    "flight_id": 25,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-17 14:30",
+    "arrival": "2025-06-17 18:30",
+    "airline": "SpiceJet",
+    "fare": 4077
+  },
+  {
+    "flight_id": 26,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-17 14:45",
+    "arrival": "2025-06-17 19:15",
+    "airline": "SpiceJet",
+    "fare": 6393
+  },
+  {
+    "flight_id": 27,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-17 07:15",
+    "arrival": "2025-06-17 08:45",
+    "airline": "Air India",
+    "fare": 7781
+  },
+  {
+    "flight_id": 28,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-17 16:45",
+    "arrival": "2025-06-17 18:45",
+    "airline": "Vistara",
+    "fare": 5271
+  },
+  {
+    "flight_id": 29,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 20:30",
+    "arrival": "2025-06-17 23:45",
+    "airline": "IndiGo",
+    "fare": 7710
+  },
+  {
+    "flight_id": 30,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 14:45",
+    "arrival": "2025-06-17 18:45",
+    "airline": "IndiGo",
+    "fare": 2153
+  },
+  {
+    "flight_id": 31,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-17 08:15",
+    "arrival": "2025-06-17 10:30",
+    "airline": "Air India",
+    "fare": 5428
+  },
+  {
+    "flight_id": 32,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-17 08:30",
+    "arrival": "2025-06-17 11:15",
+    "airline": "Air India",
+    "fare": 6367
+  },
+  {
+    "flight_id": 33,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-17 17:00",
+    "arrival": "2025-06-17 18:15",
+    "airline": "SpiceJet",
+    "fare": 2533
+  },
+  {
+    "flight_id": 34,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-17 09:30",
+    "arrival": "2025-06-17 11:15",
+    "airline": "SpiceJet",
+    "fare": 6320
+  },
+  {
+    "flight_id": 35,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-17 16:15",
+    "arrival": "2025-06-17 20:00",
+    "airline": "IndiGo",
+    "fare": 7221
+  },
+  {
+    "flight_id": 36,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-17 13:30",
+    "arrival": "2025-06-17 14:45",
+    "airline": "Air India",
+    "fare": 7194
+  },
+  {
+    "flight_id": 37,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-17 06:30",
+    "arrival": "2025-06-17 10:45",
+    "airline": "SpiceJet",
+    "fare": 5788
+  },
+  {
+    "flight_id": 38,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-17 12:30",
+    "arrival": "2025-06-17 14:30",
+    "airline": "GoAir",
+    "fare": 4942
+  },
+  {
+    "flight_id": 39,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-17 10:00",
+    "arrival": "2025-06-17 11:15",
+    "airline": "Vistara",
+    "fare": 3614
+  },
+  {
+    "flight_id": 40,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-17 07:45",
+    "arrival": "2025-06-17 11:00",
+    "airline": "SpiceJet",
+    "fare": 7431
+  },
+  {
+    "flight_id": 41,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-17 13:15",
+    "arrival": "2025-06-17 14:15",
+    "airline": "GoAir",
+    "fare": 7937
+  },
+  {
+    "flight_id": 42,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-17 20:15",
+    "arrival": "2025-06-18 00:15",
+    "airline": "Air India",
+    "fare": 7717
+  },
+  {
+    "flight_id": 43,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-17 08:30",
+    "arrival": "2025-06-17 10:15",
+    "airline": "IndiGo",
+    "fare": 6066
+  },
+  {
+    "flight_id": 44,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-17 14:00",
+    "arrival": "2025-06-17 16:30",
+    "airline": "Air India",
+    "fare": 3231
+  },
+  {
+    "flight_id": 45,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-17 20:45",
+    "arrival": "2025-06-17 21:45",
+    "airline": "IndiGo",
+    "fare": 2139
+  },
+  {
+    "flight_id": 46,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-17 20:45",
+    "arrival": "2025-06-18 01:15",
+    "airline": "SpiceJet",
+    "fare": 7779
+  },
+  {
+    "flight_id": 47,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-17 16:15",
+    "arrival": "2025-06-17 20:00",
+    "airline": "Vistara",
+    "fare": 5913
+  },
+  {
+    "flight_id": 48,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-17 12:45",
+    "arrival": "2025-06-17 17:30",
+    "airline": "Vistara",
+    "fare": 7745
+  },
+  {
+    "flight_id": 49,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-17 14:45",
+    "arrival": "2025-06-17 19:15",
+    "airline": "Air India",
+    "fare": 5524
+  },
+  {
+    "flight_id": 50,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-17 13:00",
+    "arrival": "2025-06-17 16:00",
+    "airline": "Vistara",
+    "fare": 7285
+  },
+  {
+    "flight_id": 51,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-17 20:45",
+    "arrival": "2025-06-17 23:30",
+    "airline": "Vistara",
+    "fare": 4303
+  },
+  {
+    "flight_id": 52,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-17 20:00",
+    "arrival": "2025-06-17 21:15",
+    "airline": "GoAir",
+    "fare": 7420
+  },
+  {
+    "flight_id": 53,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-17 08:15",
+    "arrival": "2025-06-17 11:00",
+    "airline": "Air India",
+    "fare": 7437
+  },
+  {
+    "flight_id": 54,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-17 11:30",
+    "arrival": "2025-06-17 13:30",
+    "airline": "SpiceJet",
+    "fare": 2619
+  },
+  {
+    "flight_id": 55,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 10:45",
+    "arrival": "2025-06-17 12:45",
+    "airline": "SpiceJet",
+    "fare": 4765
+  },
+  {
+    "flight_id": 56,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 14:30",
+    "arrival": "2025-06-17 15:30",
+    "airline": "SpiceJet",
+    "fare": 5901
+  },
+  {
+    "flight_id": 57,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-17 15:00",
+    "arrival": "2025-06-17 19:30",
+    "airline": "Air India",
+    "fare": 2430
+  },
+  {
+    "flight_id": 58,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-17 16:30",
+    "arrival": "2025-06-17 18:30",
+    "airline": "Vistara",
+    "fare": 4144
+  },
+  {
+    "flight_id": 59,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-17 13:15",
+    "arrival": "2025-06-17 14:15",
+    "airline": "Air India",
+    "fare": 3178
+  },
+  {
+    "flight_id": 60,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-17 18:00",
+    "arrival": "2025-06-17 21:45",
+    "airline": "SpiceJet",
+    "fare": 5610
+  },
+  {
+    "flight_id": 61,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-17 20:30",
+    "arrival": "2025-06-17 23:30",
+    "airline": "Vistara",
+    "fare": 7889
+  },
+  {
+    "flight_id": 62,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-17 12:30",
+    "arrival": "2025-06-17 13:45",
+    "airline": "Vistara",
+    "fare": 5250
+  },
+  {
+    "flight_id": 63,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-17 18:45",
+    "arrival": "2025-06-17 20:45",
+    "airline": "IndiGo",
+    "fare": 4236
+  },
+  {
+    "flight_id": 64,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-17 10:00",
+    "arrival": "2025-06-17 13:45",
+    "airline": "IndiGo",
+    "fare": 6547
+  },
+  {
+    "flight_id": 65,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-17 20:00",
+    "arrival": "2025-06-17 22:30",
+    "airline": "GoAir",
+    "fare": 4929
+  },
+  {
+    "flight_id": 66,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-17 19:15",
+    "arrival": "2025-06-17 21:45",
+    "airline": "SpiceJet",
+    "fare": 4262
+  },
+  {
+    "flight_id": 67,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 06:15",
+    "arrival": "2025-06-17 07:30",
+    "airline": "SpiceJet",
+    "fare": 6735
+  },
+  {
+    "flight_id": 68,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 14:30",
+    "arrival": "2025-06-17 16:15",
+    "airline": "GoAir",
+    "fare": 6701
+  },
+  {
+    "flight_id": 69,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-17 07:45",
+    "arrival": "2025-06-17 10:45",
+    "airline": "SpiceJet",
+    "fare": 6196
+  },
+  {
+    "flight_id": 70,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-17 17:00",
+    "arrival": "2025-06-17 19:15",
+    "airline": "SpiceJet",
+    "fare": 2931
+  },
+  {
+    "flight_id": 71,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-17 18:45",
+    "arrival": "2025-06-17 21:15",
+    "airline": "SpiceJet",
+    "fare": 5803
+  },
+  {
+    "flight_id": 72,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-17 20:45",
+    "arrival": "2025-06-17 23:15",
+    "airline": "Vistara",
+    "fare": 3547
+  },
+  {
+    "flight_id": 73,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-17 19:30",
+    "arrival": "2025-06-18 00:00",
+    "airline": "Vistara",
+    "fare": 5686
+  },
+  {
+    "flight_id": 74,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-17 18:45",
+    "arrival": "2025-06-17 20:30",
+    "airline": "IndiGo",
+    "fare": 7749
+  },
+  {
+    "flight_id": 75,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-17 11:30",
+    "arrival": "2025-06-17 14:30",
+    "airline": "SpiceJet",
+    "fare": 3634
+  },
+  {
+    "flight_id": 76,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-17 06:30",
+    "arrival": "2025-06-17 08:45",
+    "airline": "SpiceJet",
+    "fare": 2626
+  },
+  {
+    "flight_id": 77,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-17 17:45",
+    "arrival": "2025-06-17 21:45",
+    "airline": "GoAir",
+    "fare": 2429
+  },
+  {
+    "flight_id": 78,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-17 17:30",
+    "arrival": "2025-06-17 22:15",
+    "airline": "IndiGo",
+    "fare": 6353
+  },
+  {
+    "flight_id": 79,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 11:15",
+    "arrival": "2025-06-17 12:30",
+    "airline": "Vistara",
+    "fare": 2669
+  },
+  {
+    "flight_id": 80,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-17 06:30",
+    "arrival": "2025-06-17 07:45",
+    "airline": "Vistara",
+    "fare": 3633
+  },
+  {
+    "flight_id": 81,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-17 11:15",
+    "arrival": "2025-06-17 13:15",
+    "airline": "Air India",
+    "fare": 3645
+  },
+  {
+    "flight_id": 82,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-17 15:00",
+    "arrival": "2025-06-17 16:45",
+    "airline": "SpiceJet",
+    "fare": 7675
+  },
+  {
+    "flight_id": 83,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-17 20:00",
+    "arrival": "2025-06-17 23:30",
+    "airline": "SpiceJet",
+    "fare": 7101
+  },
+  {
+    "flight_id": 84,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-17 06:15",
+    "arrival": "2025-06-17 08:45",
+    "airline": "SpiceJet",
+    "fare": 4895
+  },
+  {
+    "flight_id": 85,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-18 12:00",
+    "arrival": "2025-06-18 16:00",
+    "airline": "SpiceJet",
+    "fare": 6109
+  },
+  {
+    "flight_id": 86,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-18 16:30",
+    "arrival": "2025-06-18 18:15",
+    "airline": "SpiceJet",
+    "fare": 6631
+  },
+  {
+    "flight_id": 87,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-18 15:00",
+    "arrival": "2025-06-18 16:30",
+    "airline": "GoAir",
+    "fare": 7776
+  },
+  {
+    "flight_id": 88,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-18 11:00",
+    "arrival": "2025-06-18 15:45",
+    "airline": "IndiGo",
+    "fare": 5229
+  },
+  {
+    "flight_id": 89,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 11:45",
+    "arrival": "2025-06-18 16:15",
+    "airline": "IndiGo",
+    "fare": 2801
+  },
+  {
+    "flight_id": 90,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 07:00",
+    "arrival": "2025-06-18 11:15",
+    "airline": "IndiGo",
+    "fare": 6784
+  },
+  {
+    "flight_id": 91,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-18 20:15",
+    "arrival": "2025-06-18 22:15",
+    "airline": "GoAir",
+    "fare": 2373
+  },
+  {
+    "flight_id": 92,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-18 06:30",
+    "arrival": "2025-06-18 08:30",
+    "airline": "SpiceJet",
+    "fare": 7495
+  },
+  {
+    "flight_id": 93,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-18 14:15",
+    "arrival": "2025-06-18 16:00",
+    "airline": "Vistara",
+    "fare": 2615
+  },
+  {
+    "flight_id": 94,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-18 14:15",
+    "arrival": "2025-06-18 18:00",
+    "airline": "SpiceJet",
+    "fare": 7706
+  },
+  {
+    "flight_id": 95,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-18 13:15",
+    "arrival": "2025-06-18 14:15",
+    "airline": "SpiceJet",
+    "fare": 5717
+  },
+  {
+    "flight_id": 96,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-18 10:30",
+    "arrival": "2025-06-18 14:00",
+    "airline": "Air India",
+    "fare": 7209
+  },
+  {
+    "flight_id": 97,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-18 08:15",
+    "arrival": "2025-06-18 12:15",
+    "airline": "IndiGo",
+    "fare": 7751
+  },
+  {
+    "flight_id": 98,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-18 11:00",
+    "arrival": "2025-06-18 15:45",
+    "airline": "Air India",
+    "fare": 5136
+  },
+  {
+    "flight_id": 99,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-18 17:45",
+    "arrival": "2025-06-18 18:45",
+    "airline": "Air India",
+    "fare": 7255
+  },
+  {
+    "flight_id": 100,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-18 19:15",
+    "arrival": "2025-06-18 23:30",
+    "airline": "Vistara",
+    "fare": 5798
+  },
+  {
+    "flight_id": 101,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 10:30",
+    "arrival": "2025-06-18 11:45",
+    "airline": "Air India",
+    "fare": 5321
+  },
+  {
+    "flight_id": 102,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 19:15",
+    "arrival": "2025-06-18 23:15",
+    "airline": "IndiGo",
+    "fare": 6605
+  },
+  {
+    "flight_id": 103,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-18 09:00",
+    "arrival": "2025-06-18 10:45",
+    "airline": "Vistara",
+    "fare": 2615
+  },
+  {
+    "flight_id": 104,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-18 09:45",
+    "arrival": "2025-06-18 14:00",
+    "airline": "SpiceJet",
+    "fare": 6357
+  },
+  {
+    "flight_id": 105,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-18 06:15",
+    "arrival": "2025-06-18 09:00",
+    "airline": "IndiGo",
+    "fare": 4063
+  },
+  {
+    "flight_id": 106,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-18 14:00",
+    "arrival": "2025-06-18 16:30",
+    "airline": "Air India",
+    "fare": 3875
+  },
+  {
+    "flight_id": 107,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-18 06:45",
+    "arrival": "2025-06-18 08:00",
+    "airline": "Vistara",
+    "fare": 2607
+  },
+  {
+    "flight_id": 108,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-18 08:30",
+    "arrival": "2025-06-18 11:45",
+    "airline": "Air India",
+    "fare": 4651
+  },
+  {
+    "flight_id": 109,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-18 17:30",
+    "arrival": "2025-06-18 18:30",
+    "airline": "GoAir",
+    "fare": 2324
+  },
+  {
+    "flight_id": 110,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-18 16:00",
+    "arrival": "2025-06-18 19:30",
+    "airline": "Vistara",
+    "fare": 2980
+  },
+  {
+    "flight_id": 111,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-18 13:45",
+    "arrival": "2025-06-18 16:15",
+    "airline": "SpiceJet",
+    "fare": 5463
+  },
+  {
+    "flight_id": 112,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-18 06:30",
+    "arrival": "2025-06-18 10:00",
+    "airline": "Vistara",
+    "fare": 5173
+  },
+  {
+    "flight_id": 113,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 15:00",
+    "arrival": "2025-06-18 18:45",
+    "airline": "GoAir",
+    "fare": 4027
+  },
+  {
+    "flight_id": 114,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 08:30",
+    "arrival": "2025-06-18 11:45",
+    "airline": "Air India",
+    "fare": 4017
+  },
+  {
+    "flight_id": 115,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-18 10:00",
+    "arrival": "2025-06-18 13:15",
+    "airline": "SpiceJet",
+    "fare": 5232
+  },
+  {
+    "flight_id": 116,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-18 18:00",
+    "arrival": "2025-06-18 22:45",
+    "airline": "GoAir",
+    "fare": 5273
+  },
+  {
+    "flight_id": 117,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-18 11:30",
+    "arrival": "2025-06-18 16:15",
+    "airline": "SpiceJet",
+    "fare": 5615
+  },
+  {
+    "flight_id": 118,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-18 08:15",
+    "arrival": "2025-06-18 11:45",
+    "airline": "GoAir",
+    "fare": 7023
+  },
+  {
+    "flight_id": 119,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-18 08:00",
+    "arrival": "2025-06-18 10:30",
+    "airline": "Air India",
+    "fare": 6028
+  },
+  {
+    "flight_id": 120,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-18 06:15",
+    "arrival": "2025-06-18 09:00",
+    "airline": "Air India",
+    "fare": 2960
+  },
+  {
+    "flight_id": 121,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-18 12:30",
+    "arrival": "2025-06-18 13:45",
+    "airline": "Air India",
+    "fare": 6910
+  },
+  {
+    "flight_id": 122,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-18 18:30",
+    "arrival": "2025-06-18 21:00",
+    "airline": "Air India",
+    "fare": 2911
+  },
+  {
+    "flight_id": 123,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-18 15:00",
+    "arrival": "2025-06-18 17:15",
+    "airline": "SpiceJet",
+    "fare": 5920
+  },
+  {
+    "flight_id": 124,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-18 17:30",
+    "arrival": "2025-06-18 19:30",
+    "airline": "Air India",
+    "fare": 4700
+  },
+  {
+    "flight_id": 125,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-18 16:00",
+    "arrival": "2025-06-18 17:30",
+    "airline": "Air India",
+    "fare": 2744
+  },
+  {
+    "flight_id": 126,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-18 08:45",
+    "arrival": "2025-06-18 13:30",
+    "airline": "Vistara",
+    "fare": 2580
+  },
+  {
+    "flight_id": 127,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-18 06:30",
+    "arrival": "2025-06-18 08:30",
+    "airline": "GoAir",
+    "fare": 3095
+  },
+  {
+    "flight_id": 128,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-18 08:30",
+    "arrival": "2025-06-18 13:00",
+    "airline": "Vistara",
+    "fare": 3268
+  },
+  {
+    "flight_id": 129,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-18 18:30",
+    "arrival": "2025-06-18 21:45",
+    "airline": "Air India",
+    "fare": 3795
+  },
+  {
+    "flight_id": 130,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-18 20:45",
+    "arrival": "2025-06-18 23:15",
+    "airline": "SpiceJet",
+    "fare": 2379
+  },
+  {
+    "flight_id": 131,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-18 13:30",
+    "arrival": "2025-06-18 16:15",
+    "airline": "Vistara",
+    "fare": 5452
+  },
+  {
+    "flight_id": 132,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-18 14:00",
+    "arrival": "2025-06-18 15:15",
+    "airline": "SpiceJet",
+    "fare": 2504
+  },
+  {
+    "flight_id": 133,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-18 18:15",
+    "arrival": "2025-06-18 22:45",
+    "airline": "Air India",
+    "fare": 4617
+  },
+  {
+    "flight_id": 134,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-18 18:00",
+    "arrival": "2025-06-18 19:30",
+    "airline": "SpiceJet",
+    "fare": 7600
+  },
+  {
+    "flight_id": 135,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-18 19:15",
+    "arrival": "2025-06-18 23:30",
+    "airline": "Air India",
+    "fare": 4353
+  },
+  {
+    "flight_id": 136,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-18 08:45",
+    "arrival": "2025-06-18 13:30",
+    "airline": "Vistara",
+    "fare": 7600
+  },
+  {
+    "flight_id": 137,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-18 11:30",
+    "arrival": "2025-06-18 12:30",
+    "airline": "IndiGo",
+    "fare": 3307
+  },
+  {
+    "flight_id": 138,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-18 09:45",
+    "arrival": "2025-06-18 13:45",
+    "airline": "GoAir",
+    "fare": 2514
+  },
+  {
+    "flight_id": 139,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 12:45",
+    "arrival": "2025-06-18 13:45",
+    "airline": "IndiGo",
+    "fare": 4778
+  },
+  {
+    "flight_id": 140,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 10:15",
+    "arrival": "2025-06-18 14:30",
+    "airline": "Vistara",
+    "fare": 2997
+  },
+  {
+    "flight_id": 141,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-18 12:15",
+    "arrival": "2025-06-18 16:00",
+    "airline": "Vistara",
+    "fare": 4436
+  },
+  {
+    "flight_id": 142,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-18 07:15",
+    "arrival": "2025-06-18 08:30",
+    "airline": "GoAir",
+    "fare": 5310
+  },
+  {
+    "flight_id": 143,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-18 07:30",
+    "arrival": "2025-06-18 11:00",
+    "airline": "SpiceJet",
+    "fare": 5054
+  },
+  {
+    "flight_id": 144,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-18 06:00",
+    "arrival": "2025-06-18 09:45",
+    "airline": "GoAir",
+    "fare": 4195
+  },
+  {
+    "flight_id": 145,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-18 18:30",
+    "arrival": "2025-06-18 23:00",
+    "airline": "Vistara",
+    "fare": 2837
+  },
+  {
+    "flight_id": 146,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-18 13:30",
+    "arrival": "2025-06-18 15:15",
+    "airline": "Air India",
+    "fare": 2871
+  },
+  {
+    "flight_id": 147,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-18 15:30",
+    "arrival": "2025-06-18 18:30",
+    "airline": "SpiceJet",
+    "fare": 3506
+  },
+  {
+    "flight_id": 148,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-18 08:15",
+    "arrival": "2025-06-18 09:30",
+    "airline": "Air India",
+    "fare": 6260
+  },
+  {
+    "flight_id": 149,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-18 09:30",
+    "arrival": "2025-06-18 13:30",
+    "airline": "Vistara",
+    "fare": 7235
+  },
+  {
+    "flight_id": 150,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-18 08:45",
+    "arrival": "2025-06-18 11:15",
+    "airline": "Vistara",
+    "fare": 4253
+  },
+  {
+    "flight_id": 151,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 14:15",
+    "arrival": "2025-06-18 18:45",
+    "airline": "Vistara",
+    "fare": 7452
+  },
+  {
+    "flight_id": 152,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 07:15",
+    "arrival": "2025-06-18 11:15",
+    "airline": "SpiceJet",
+    "fare": 6002
+  },
+  {
+    "flight_id": 153,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-18 06:15",
+    "arrival": "2025-06-18 08:45",
+    "airline": "Vistara",
+    "fare": 7059
+  },
+  {
+    "flight_id": 154,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-18 13:00",
+    "arrival": "2025-06-18 14:30",
+    "airline": "GoAir",
+    "fare": 2227
+  },
+  {
+    "flight_id": 155,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-18 06:45",
+    "arrival": "2025-06-18 10:15",
+    "airline": "GoAir",
+    "fare": 4219
+  },
+  {
+    "flight_id": 156,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-18 13:45",
+    "arrival": "2025-06-18 16:15",
+    "airline": "SpiceJet",
+    "fare": 2465
+  },
+  {
+    "flight_id": 157,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-18 15:45",
+    "arrival": "2025-06-18 19:30",
+    "airline": "Vistara",
+    "fare": 7389
+  },
+  {
+    "flight_id": 158,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-18 15:30",
+    "arrival": "2025-06-18 16:30",
+    "airline": "SpiceJet",
+    "fare": 2297
+  },
+  {
+    "flight_id": 159,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-18 06:15",
+    "arrival": "2025-06-18 09:45",
+    "airline": "IndiGo",
+    "fare": 2608
+  },
+  {
+    "flight_id": 160,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-18 13:15",
+    "arrival": "2025-06-18 16:00",
+    "airline": "GoAir",
+    "fare": 7949
+  },
+  {
+    "flight_id": 161,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-18 20:15",
+    "arrival": "2025-06-19 00:00",
+    "airline": "Air India",
+    "fare": 6272
+  },
+  {
+    "flight_id": 162,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-18 20:45",
+    "arrival": "2025-06-19 00:30",
+    "airline": "GoAir",
+    "fare": 5407
+  },
+  {
+    "flight_id": 163,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 07:30",
+    "arrival": "2025-06-18 09:30",
+    "airline": "GoAir",
+    "fare": 7112
+  },
+  {
+    "flight_id": 164,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-18 11:00",
+    "arrival": "2025-06-18 13:30",
+    "airline": "GoAir",
+    "fare": 3167
+  },
+  {
+    "flight_id": 165,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-18 14:00",
+    "arrival": "2025-06-18 17:45",
+    "airline": "Air India",
+    "fare": 3888
+  },
+  {
+    "flight_id": 166,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-18 16:45",
+    "arrival": "2025-06-18 21:00",
+    "airline": "IndiGo",
+    "fare": 6657
+  },
+  {
+    "flight_id": 167,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-18 07:30",
+    "arrival": "2025-06-18 09:45",
+    "airline": "Air India",
+    "fare": 2218
+  },
+  {
+    "flight_id": 168,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-18 12:30",
+    "arrival": "2025-06-18 14:15",
+    "airline": "SpiceJet",
+    "fare": 7022
+  },
+  {
+    "flight_id": 169,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-19 16:15",
+    "arrival": "2025-06-19 18:15",
+    "airline": "Vistara",
+    "fare": 2258
+  },
+  {
+    "flight_id": 170,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-19 16:30",
+    "arrival": "2025-06-19 19:15",
+    "airline": "IndiGo",
+    "fare": 4757
+  },
+  {
+    "flight_id": 171,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-19 13:30",
+    "arrival": "2025-06-19 15:15",
+    "airline": "IndiGo",
+    "fare": 4915
+  },
+  {
+    "flight_id": 172,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-19 14:30",
+    "arrival": "2025-06-19 19:15",
+    "airline": "Air India",
+    "fare": 7300
+  },
+  {
+    "flight_id": 173,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 14:15",
+    "arrival": "2025-06-19 18:30",
+    "airline": "SpiceJet",
+    "fare": 7939
+  },
+  {
+    "flight_id": 174,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 11:15",
+    "arrival": "2025-06-19 14:45",
+    "airline": "SpiceJet",
+    "fare": 4335
+  },
+  {
+    "flight_id": 175,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-19 15:15",
+    "arrival": "2025-06-19 16:45",
+    "airline": "Air India",
+    "fare": 6548
+  },
+  {
+    "flight_id": 176,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-19 14:00",
+    "arrival": "2025-06-19 15:30",
+    "airline": "Vistara",
+    "fare": 5113
+  },
+  {
+    "flight_id": 177,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-19 06:15",
+    "arrival": "2025-06-19 11:00",
+    "airline": "SpiceJet",
+    "fare": 2971
+  },
+  {
+    "flight_id": 178,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-19 20:15",
+    "arrival": "2025-06-19 23:45",
+    "airline": "Air India",
+    "fare": 7630
+  },
+  {
+    "flight_id": 179,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-19 09:15",
+    "arrival": "2025-06-19 12:00",
+    "airline": "Vistara",
+    "fare": 6448
+  },
+  {
+    "flight_id": 180,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-19 20:15",
+    "arrival": "2025-06-20 00:00",
+    "airline": "Vistara",
+    "fare": 7752
+  },
+  {
+    "flight_id": 181,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-19 12:30",
+    "arrival": "2025-06-19 16:45",
+    "airline": "Vistara",
+    "fare": 5727
+  },
+  {
+    "flight_id": 182,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-19 17:45",
+    "arrival": "2025-06-19 20:00",
+    "airline": "Vistara",
+    "fare": 2685
+  },
+  {
+    "flight_id": 183,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-19 17:45",
+    "arrival": "2025-06-19 20:00",
+    "airline": "IndiGo",
+    "fare": 7258
+  },
+  {
+    "flight_id": 184,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-19 09:15",
+    "arrival": "2025-06-19 13:15",
+    "airline": "SpiceJet",
+    "fare": 4611
+  },
+  {
+    "flight_id": 185,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 08:30",
+    "arrival": "2025-06-19 13:00",
+    "airline": "GoAir",
+    "fare": 5009
+  },
+  {
+    "flight_id": 186,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 11:15",
+    "arrival": "2025-06-19 13:45",
+    "airline": "Air India",
+    "fare": 7887
+  },
+  {
+    "flight_id": 187,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-19 07:00",
+    "arrival": "2025-06-19 10:45",
+    "airline": "IndiGo",
+    "fare": 3749
+  },
+  {
+    "flight_id": 188,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-19 06:30",
+    "arrival": "2025-06-19 10:15",
+    "airline": "SpiceJet",
+    "fare": 2632
+  },
+  {
+    "flight_id": 189,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-19 15:00",
+    "arrival": "2025-06-19 17:15",
+    "airline": "GoAir",
+    "fare": 5723
+  },
+  {
+    "flight_id": 190,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-19 10:15",
+    "arrival": "2025-06-19 12:00",
+    "airline": "SpiceJet",
+    "fare": 7868
+  },
+  {
+    "flight_id": 191,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-19 15:45",
+    "arrival": "2025-06-19 17:00",
+    "airline": "GoAir",
+    "fare": 4852
+  },
+  {
+    "flight_id": 192,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-19 13:00",
+    "arrival": "2025-06-19 17:15",
+    "airline": "Air India",
+    "fare": 2186
+  },
+  {
+    "flight_id": 193,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-19 13:00",
+    "arrival": "2025-06-19 14:00",
+    "airline": "GoAir",
+    "fare": 2722
+  },
+  {
+    "flight_id": 194,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-19 19:30",
+    "arrival": "2025-06-19 21:30",
+    "airline": "SpiceJet",
+    "fare": 6548
+  },
+  {
+    "flight_id": 195,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-19 09:00",
+    "arrival": "2025-06-19 13:15",
+    "airline": "IndiGo",
+    "fare": 5890
+  },
+  {
+    "flight_id": 196,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-19 09:30",
+    "arrival": "2025-06-19 14:00",
+    "airline": "IndiGo",
+    "fare": 2362
+  },
+  {
+    "flight_id": 197,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 09:00",
+    "arrival": "2025-06-19 12:15",
+    "airline": "Air India",
+    "fare": 3425
+  },
+  {
+    "flight_id": 198,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 10:00",
+    "arrival": "2025-06-19 13:15",
+    "airline": "Air India",
+    "fare": 3257
+  },
+  {
+    "flight_id": 199,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-19 14:45",
+    "arrival": "2025-06-19 18:45",
+    "airline": "GoAir",
+    "fare": 6596
+  },
+  {
+    "flight_id": 200,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-19 15:30",
+    "arrival": "2025-06-19 18:15",
+    "airline": "Air India",
+    "fare": 6639
+  },
+  {
+    "flight_id": 201,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-19 17:45",
+    "arrival": "2025-06-19 20:30",
+    "airline": "SpiceJet",
+    "fare": 2460
+  },
+  {
+    "flight_id": 202,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-19 10:45",
+    "arrival": "2025-06-19 13:45",
+    "airline": "IndiGo",
+    "fare": 7387
+  },
+  {
+    "flight_id": 203,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-19 07:15",
+    "arrival": "2025-06-19 09:00",
+    "airline": "IndiGo",
+    "fare": 3537
+  },
+  {
+    "flight_id": 204,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-19 18:45",
+    "arrival": "2025-06-19 20:30",
+    "airline": "IndiGo",
+    "fare": 3960
+  },
+  {
+    "flight_id": 205,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-19 14:30",
+    "arrival": "2025-06-19 18:30",
+    "airline": "Vistara",
+    "fare": 7795
+  },
+  {
+    "flight_id": 206,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-19 17:45",
+    "arrival": "2025-06-19 22:30",
+    "airline": "Air India",
+    "fare": 4955
+  },
+  {
+    "flight_id": 207,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-19 09:45",
+    "arrival": "2025-06-19 14:00",
+    "airline": "SpiceJet",
+    "fare": 4595
+  },
+  {
+    "flight_id": 208,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-19 14:00",
+    "arrival": "2025-06-19 17:15",
+    "airline": "Air India",
+    "fare": 4818
+  },
+  {
+    "flight_id": 209,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-19 20:00",
+    "arrival": "2025-06-19 22:30",
+    "airline": "SpiceJet",
+    "fare": 6082
+  },
+  {
+    "flight_id": 210,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-19 15:00",
+    "arrival": "2025-06-19 17:15",
+    "airline": "SpiceJet",
+    "fare": 3080
+  },
+  {
+    "flight_id": 211,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-19 07:15",
+    "arrival": "2025-06-19 11:00",
+    "airline": "Air India",
+    "fare": 5643
+  },
+  {
+    "flight_id": 212,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-19 16:30",
+    "arrival": "2025-06-19 20:15",
+    "airline": "IndiGo",
+    "fare": 4541
+  },
+  {
+    "flight_id": 213,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-19 13:30",
+    "arrival": "2025-06-19 16:45",
+    "airline": "SpiceJet",
+    "fare": 2614
+  },
+  {
+    "flight_id": 214,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-19 11:15",
+    "arrival": "2025-06-19 13:15",
+    "airline": "Vistara",
+    "fare": 7991
+  },
+  {
+    "flight_id": 215,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-19 09:15",
+    "arrival": "2025-06-19 10:45",
+    "airline": "Vistara",
+    "fare": 3560
+  },
+  {
+    "flight_id": 216,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-19 16:45",
+    "arrival": "2025-06-19 21:00",
+    "airline": "SpiceJet",
+    "fare": 3778
+  },
+  {
+    "flight_id": 217,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-19 08:15",
+    "arrival": "2025-06-19 12:30",
+    "airline": "SpiceJet",
+    "fare": 3209
+  },
+  {
+    "flight_id": 218,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-19 08:45",
+    "arrival": "2025-06-19 10:15",
+    "airline": "GoAir",
+    "fare": 6314
+  },
+  {
+    "flight_id": 219,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-19 11:45",
+    "arrival": "2025-06-19 15:30",
+    "airline": "IndiGo",
+    "fare": 3565
+  },
+  {
+    "flight_id": 220,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-19 16:15",
+    "arrival": "2025-06-19 18:15",
+    "airline": "GoAir",
+    "fare": 2625
+  },
+  {
+    "flight_id": 221,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-19 09:45",
+    "arrival": "2025-06-19 11:15",
+    "airline": "IndiGo",
+    "fare": 6247
+  },
+  {
+    "flight_id": 222,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-19 20:30",
+    "arrival": "2025-06-20 00:00",
+    "airline": "SpiceJet",
+    "fare": 4644
+  },
+  {
+    "flight_id": 223,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 20:00",
+    "arrival": "2025-06-19 21:30",
+    "airline": "Air India",
+    "fare": 7914
+  },
+  {
+    "flight_id": 224,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 06:45",
+    "arrival": "2025-06-19 10:30",
+    "airline": "Air India",
+    "fare": 6052
+  },
+  {
+    "flight_id": 225,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-19 09:00",
+    "arrival": "2025-06-19 13:45",
+    "airline": "Air India",
+    "fare": 6209
+  },
+  {
+    "flight_id": 226,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-19 19:00",
+    "arrival": "2025-06-19 20:45",
+    "airline": "IndiGo",
+    "fare": 5322
+  },
+  {
+    "flight_id": 227,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-19 11:15",
+    "arrival": "2025-06-19 14:00",
+    "airline": "SpiceJet",
+    "fare": 3343
+  },
+  {
+    "flight_id": 228,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-19 08:30",
+    "arrival": "2025-06-19 11:15",
+    "airline": "IndiGo",
+    "fare": 4152
+  },
+  {
+    "flight_id": 229,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-19 18:00",
+    "arrival": "2025-06-19 22:30",
+    "airline": "IndiGo",
+    "fare": 6313
+  },
+  {
+    "flight_id": 230,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-19 14:30",
+    "arrival": "2025-06-19 17:15",
+    "airline": "IndiGo",
+    "fare": 6584
+  },
+  {
+    "flight_id": 231,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-19 10:15",
+    "arrival": "2025-06-19 12:30",
+    "airline": "Vistara",
+    "fare": 3151
+  },
+  {
+    "flight_id": 232,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-19 08:30",
+    "arrival": "2025-06-19 10:45",
+    "airline": "IndiGo",
+    "fare": 2857
+  },
+  {
+    "flight_id": 233,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-19 15:45",
+    "arrival": "2025-06-19 19:15",
+    "airline": "IndiGo",
+    "fare": 5890
+  },
+  {
+    "flight_id": 234,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-19 07:30",
+    "arrival": "2025-06-19 11:15",
+    "airline": "Air India",
+    "fare": 6098
+  },
+  {
+    "flight_id": 235,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 08:30",
+    "arrival": "2025-06-19 09:45",
+    "airline": "Vistara",
+    "fare": 7876
+  },
+  {
+    "flight_id": 236,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 20:45",
+    "arrival": "2025-06-19 23:45",
+    "airline": "SpiceJet",
+    "fare": 7401
+  },
+  {
+    "flight_id": 237,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-19 13:30",
+    "arrival": "2025-06-19 15:30",
+    "airline": "Vistara",
+    "fare": 5313
+  },
+  {
+    "flight_id": 238,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-19 19:15",
+    "arrival": "2025-06-19 21:00",
+    "airline": "IndiGo",
+    "fare": 7396
+  },
+  {
+    "flight_id": 239,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-19 12:45",
+    "arrival": "2025-06-19 15:45",
+    "airline": "SpiceJet",
+    "fare": 6702
+  },
+  {
+    "flight_id": 240,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-19 16:30",
+    "arrival": "2025-06-19 21:15",
+    "airline": "Vistara",
+    "fare": 7826
+  },
+  {
+    "flight_id": 241,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-19 07:30",
+    "arrival": "2025-06-19 09:15",
+    "airline": "SpiceJet",
+    "fare": 3892
+  },
+  {
+    "flight_id": 242,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-19 12:45",
+    "arrival": "2025-06-19 14:00",
+    "airline": "Air India",
+    "fare": 5495
+  },
+  {
+    "flight_id": 243,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-19 18:30",
+    "arrival": "2025-06-19 20:15",
+    "airline": "Vistara",
+    "fare": 5179
+  },
+  {
+    "flight_id": 244,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-19 14:45",
+    "arrival": "2025-06-19 18:15",
+    "airline": "IndiGo",
+    "fare": 7961
+  },
+  {
+    "flight_id": 245,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-19 16:00",
+    "arrival": "2025-06-19 20:15",
+    "airline": "IndiGo",
+    "fare": 3902
+  },
+  {
+    "flight_id": 246,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-19 13:30",
+    "arrival": "2025-06-19 15:30",
+    "airline": "SpiceJet",
+    "fare": 4070
+  },
+  {
+    "flight_id": 247,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 12:45",
+    "arrival": "2025-06-19 16:45",
+    "airline": "IndiGo",
+    "fare": 3731
+  },
+  {
+    "flight_id": 248,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-19 13:00",
+    "arrival": "2025-06-19 17:15",
+    "airline": "SpiceJet",
+    "fare": 2044
+  },
+  {
+    "flight_id": 249,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-19 14:15",
+    "arrival": "2025-06-19 18:45",
+    "airline": "Air India",
+    "fare": 5072
+  },
+  {
+    "flight_id": 250,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-19 06:15",
+    "arrival": "2025-06-19 08:00",
+    "airline": "IndiGo",
+    "fare": 3789
+  },
+  {
+    "flight_id": 251,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-19 15:45",
+    "arrival": "2025-06-19 17:00",
+    "airline": "SpiceJet",
+    "fare": 2032
+  },
+  {
+    "flight_id": 252,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-19 07:30",
+    "arrival": "2025-06-19 09:45",
+    "airline": "GoAir",
+    "fare": 3832
+  },
+  {
+    "flight_id": 253,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-20 14:00",
+    "arrival": "2025-06-20 18:45",
+    "airline": "SpiceJet",
+    "fare": 2226
+  },
+  {
+    "flight_id": 254,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-20 13:15",
+    "arrival": "2025-06-20 16:30",
+    "airline": "Vistara",
+    "fare": 5499
+  },
+  {
+    "flight_id": 255,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-20 06:00",
+    "arrival": "2025-06-20 10:30",
+    "airline": "Air India",
+    "fare": 4381
+  },
+  {
+    "flight_id": 256,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-20 07:15",
+    "arrival": "2025-06-20 08:30",
+    "airline": "Air India",
+    "fare": 6573
+  },
+  {
+    "flight_id": 257,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 17:45",
+    "arrival": "2025-06-20 20:30",
+    "airline": "IndiGo",
+    "fare": 3705
+  },
+  {
+    "flight_id": 258,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 20:30",
+    "arrival": "2025-06-21 00:15",
+    "airline": "Vistara",
+    "fare": 3647
+  },
+  {
+    "flight_id": 259,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-20 17:00",
+    "arrival": "2025-06-20 18:15",
+    "airline": "GoAir",
+    "fare": 3300
+  },
+  {
+    "flight_id": 260,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-20 11:45",
+    "arrival": "2025-06-20 14:15",
+    "airline": "GoAir",
+    "fare": 2625
+  },
+  {
+    "flight_id": 261,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-20 09:15",
+    "arrival": "2025-06-20 13:00",
+    "airline": "Vistara",
+    "fare": 3540
+  },
+  {
+    "flight_id": 262,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-20 12:30",
+    "arrival": "2025-06-20 14:15",
+    "airline": "GoAir",
+    "fare": 2078
+  },
+  {
+    "flight_id": 263,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-20 14:45",
+    "arrival": "2025-06-20 15:45",
+    "airline": "SpiceJet",
+    "fare": 2364
+  },
+  {
+    "flight_id": 264,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-20 11:00",
+    "arrival": "2025-06-20 15:00",
+    "airline": "SpiceJet",
+    "fare": 5232
+  },
+  {
+    "flight_id": 265,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-20 09:30",
+    "arrival": "2025-06-20 12:15",
+    "airline": "IndiGo",
+    "fare": 2826
+  },
+  {
+    "flight_id": 266,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-20 06:00",
+    "arrival": "2025-06-20 10:00",
+    "airline": "Vistara",
+    "fare": 2517
+  },
+  {
+    "flight_id": 267,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-20 20:30",
+    "arrival": "2025-06-20 22:45",
+    "airline": "SpiceJet",
+    "fare": 3122
+  },
+  {
+    "flight_id": 268,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-20 14:00",
+    "arrival": "2025-06-20 15:00",
+    "airline": "SpiceJet",
+    "fare": 3410
+  },
+  {
+    "flight_id": 269,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 08:15",
+    "arrival": "2025-06-20 12:15",
+    "airline": "GoAir",
+    "fare": 2286
+  },
+  {
+    "flight_id": 270,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 06:30",
+    "arrival": "2025-06-20 07:30",
+    "airline": "Vistara",
+    "fare": 3357
+  },
+  {
+    "flight_id": 271,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-20 07:00",
+    "arrival": "2025-06-20 10:15",
+    "airline": "GoAir",
+    "fare": 4359
+  },
+  {
+    "flight_id": 272,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-20 09:00",
+    "arrival": "2025-06-20 11:15",
+    "airline": "IndiGo",
+    "fare": 6198
+  },
+  {
+    "flight_id": 273,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-20 16:15",
+    "arrival": "2025-06-20 18:45",
+    "airline": "Air India",
+    "fare": 6481
+  },
+  {
+    "flight_id": 274,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-20 09:15",
+    "arrival": "2025-06-20 13:00",
+    "airline": "IndiGo",
+    "fare": 2281
+  },
+  {
+    "flight_id": 275,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-20 20:45",
+    "arrival": "2025-06-20 22:45",
+    "airline": "IndiGo",
+    "fare": 4963
+  },
+  {
+    "flight_id": 276,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-20 16:30",
+    "arrival": "2025-06-20 20:15",
+    "airline": "IndiGo",
+    "fare": 2317
+  },
+  {
+    "flight_id": 277,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-20 11:45",
+    "arrival": "2025-06-20 15:15",
+    "airline": "IndiGo",
+    "fare": 4020
+  },
+  {
+    "flight_id": 278,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-20 13:00",
+    "arrival": "2025-06-20 17:00",
+    "airline": "Vistara",
+    "fare": 7394
+  },
+  {
+    "flight_id": 279,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-20 13:15",
+    "arrival": "2025-06-20 15:15",
+    "airline": "Vistara",
+    "fare": 4845
+  },
+  {
+    "flight_id": 280,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-20 14:00",
+    "arrival": "2025-06-20 17:45",
+    "airline": "IndiGo",
+    "fare": 6622
+  },
+  {
+    "flight_id": 281,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 06:45",
+    "arrival": "2025-06-20 10:15",
+    "airline": "Vistara",
+    "fare": 4904
+  },
+  {
+    "flight_id": 282,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 13:00",
+    "arrival": "2025-06-20 17:00",
+    "airline": "Vistara",
+    "fare": 7886
+  },
+  {
+    "flight_id": 283,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-20 11:30",
+    "arrival": "2025-06-20 13:15",
+    "airline": "IndiGo",
+    "fare": 5439
+  },
+  {
+    "flight_id": 284,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-20 17:00",
+    "arrival": "2025-06-20 21:30",
+    "airline": "GoAir",
+    "fare": 6411
+  },
+  {
+    "flight_id": 285,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-20 16:00",
+    "arrival": "2025-06-20 20:15",
+    "airline": "Air India",
+    "fare": 2683
+  },
+  {
+    "flight_id": 286,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-20 19:15",
+    "arrival": "2025-06-20 21:00",
+    "airline": "IndiGo",
+    "fare": 4440
+  },
+  {
+    "flight_id": 287,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-20 16:45",
+    "arrival": "2025-06-20 18:45",
+    "airline": "GoAir",
+    "fare": 4462
+  },
+  {
+    "flight_id": 288,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-20 14:30",
+    "arrival": "2025-06-20 16:45",
+    "airline": "Vistara",
+    "fare": 4911
+  },
+  {
+    "flight_id": 289,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-20 20:15",
+    "arrival": "2025-06-20 21:45",
+    "airline": "IndiGo",
+    "fare": 6177
+  },
+  {
+    "flight_id": 290,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-20 10:15",
+    "arrival": "2025-06-20 14:45",
+    "airline": "Air India",
+    "fare": 3331
+  },
+  {
+    "flight_id": 291,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-20 09:45",
+    "arrival": "2025-06-20 13:00",
+    "airline": "IndiGo",
+    "fare": 2604
+  },
+  {
+    "flight_id": 292,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-20 15:30",
+    "arrival": "2025-06-20 17:15",
+    "airline": "Vistara",
+    "fare": 5922
+  },
+  {
+    "flight_id": 293,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-20 16:00",
+    "arrival": "2025-06-20 17:00",
+    "airline": "IndiGo",
+    "fare": 3601
+  },
+  {
+    "flight_id": 294,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-20 09:00",
+    "arrival": "2025-06-20 12:15",
+    "airline": "Vistara",
+    "fare": 2621
+  },
+  {
+    "flight_id": 295,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-20 19:15",
+    "arrival": "2025-06-20 21:00",
+    "airline": "Air India",
+    "fare": 7545
+  },
+  {
+    "flight_id": 296,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-20 12:15",
+    "arrival": "2025-06-20 15:00",
+    "airline": "Air India",
+    "fare": 5884
+  },
+  {
+    "flight_id": 297,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-20 10:45",
+    "arrival": "2025-06-20 14:30",
+    "airline": "IndiGo",
+    "fare": 7059
+  },
+  {
+    "flight_id": 298,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-20 15:00",
+    "arrival": "2025-06-20 16:00",
+    "airline": "IndiGo",
+    "fare": 5945
+  },
+  {
+    "flight_id": 299,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-20 06:00",
+    "arrival": "2025-06-20 08:00",
+    "airline": "Air India",
+    "fare": 7686
+  },
+  {
+    "flight_id": 300,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-20 20:30",
+    "arrival": "2025-06-21 00:15",
+    "airline": "Vistara",
+    "fare": 2710
+  },
+  {
+    "flight_id": 301,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-20 15:30",
+    "arrival": "2025-06-20 16:30",
+    "airline": "IndiGo",
+    "fare": 2387
+  },
+  {
+    "flight_id": 302,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-20 10:00",
+    "arrival": "2025-06-20 14:30",
+    "airline": "Air India",
+    "fare": 3805
+  },
+  {
+    "flight_id": 303,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-20 16:00",
+    "arrival": "2025-06-20 17:30",
+    "airline": "Air India",
+    "fare": 4725
+  },
+  {
+    "flight_id": 304,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-20 17:30",
+    "arrival": "2025-06-20 20:15",
+    "airline": "Air India",
+    "fare": 5684
+  },
+  {
+    "flight_id": 305,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-20 07:45",
+    "arrival": "2025-06-20 09:45",
+    "airline": "IndiGo",
+    "fare": 6549
+  },
+  {
+    "flight_id": 306,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-20 07:45",
+    "arrival": "2025-06-20 08:45",
+    "airline": "Air India",
+    "fare": 7488
+  },
+  {
+    "flight_id": 307,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 14:00",
+    "arrival": "2025-06-20 18:45",
+    "airline": "Air India",
+    "fare": 7140
+  },
+  {
+    "flight_id": 308,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 13:45",
+    "arrival": "2025-06-20 17:00",
+    "airline": "Vistara",
+    "fare": 5767
+  },
+  {
+    "flight_id": 309,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-20 19:00",
+    "arrival": "2025-06-20 20:15",
+    "airline": "IndiGo",
+    "fare": 4561
+  },
+  {
+    "flight_id": 310,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-20 06:45",
+    "arrival": "2025-06-20 11:30",
+    "airline": "Air India",
+    "fare": 7573
+  },
+  {
+    "flight_id": 311,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-20 11:45",
+    "arrival": "2025-06-20 15:00",
+    "airline": "Vistara",
+    "fare": 2844
+  },
+  {
+    "flight_id": 312,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-20 16:30",
+    "arrival": "2025-06-20 20:00",
+    "airline": "Air India",
+    "fare": 7616
+  },
+  {
+    "flight_id": 313,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-20 18:30",
+    "arrival": "2025-06-20 22:45",
+    "airline": "SpiceJet",
+    "fare": 3186
+  },
+  {
+    "flight_id": 314,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-20 16:15",
+    "arrival": "2025-06-20 17:30",
+    "airline": "GoAir",
+    "fare": 6521
+  },
+  {
+    "flight_id": 315,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-20 13:30",
+    "arrival": "2025-06-20 15:00",
+    "airline": "GoAir",
+    "fare": 7195
+  },
+  {
+    "flight_id": 316,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-20 09:15",
+    "arrival": "2025-06-20 13:45",
+    "airline": "Air India",
+    "fare": 6176
+  },
+  {
+    "flight_id": 317,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-20 11:30",
+    "arrival": "2025-06-20 13:45",
+    "airline": "IndiGo",
+    "fare": 3148
+  },
+  {
+    "flight_id": 318,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-20 15:45",
+    "arrival": "2025-06-20 16:45",
+    "airline": "GoAir",
+    "fare": 5251
+  },
+  {
+    "flight_id": 319,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 09:00",
+    "arrival": "2025-06-20 11:45",
+    "airline": "GoAir",
+    "fare": 4829
+  },
+  {
+    "flight_id": 320,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 07:45",
+    "arrival": "2025-06-20 09:45",
+    "airline": "Air India",
+    "fare": 4645
+  },
+  {
+    "flight_id": 321,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-20 12:45",
+    "arrival": "2025-06-20 14:00",
+    "airline": "SpiceJet",
+    "fare": 5078
+  },
+  {
+    "flight_id": 322,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-20 13:15",
+    "arrival": "2025-06-20 16:15",
+    "airline": "IndiGo",
+    "fare": 4064
+  },
+  {
+    "flight_id": 323,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-20 14:30",
+    "arrival": "2025-06-20 16:15",
+    "airline": "Air India",
+    "fare": 5250
+  },
+  {
+    "flight_id": 324,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-20 16:15",
+    "arrival": "2025-06-20 17:15",
+    "airline": "Air India",
+    "fare": 5028
+  },
+  {
+    "flight_id": 325,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-20 11:45",
+    "arrival": "2025-06-20 15:45",
+    "airline": "Air India",
+    "fare": 3182
+  },
+  {
+    "flight_id": 326,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-20 17:00",
+    "arrival": "2025-06-20 19:30",
+    "airline": "Air India",
+    "fare": 2102
+  },
+  {
+    "flight_id": 327,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-20 15:00",
+    "arrival": "2025-06-20 19:00",
+    "airline": "Air India",
+    "fare": 5185
+  },
+  {
+    "flight_id": 328,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-20 07:45",
+    "arrival": "2025-06-20 11:15",
+    "airline": "SpiceJet",
+    "fare": 5447
+  },
+  {
+    "flight_id": 329,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-20 12:30",
+    "arrival": "2025-06-20 16:00",
+    "airline": "Air India",
+    "fare": 6670
+  },
+  {
+    "flight_id": 330,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-20 17:30",
+    "arrival": "2025-06-20 19:45",
+    "airline": "IndiGo",
+    "fare": 6692
+  },
+  {
+    "flight_id": 331,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 06:15",
+    "arrival": "2025-06-20 09:30",
+    "airline": "SpiceJet",
+    "fare": 5978
+  },
+  {
+    "flight_id": 332,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-20 08:00",
+    "arrival": "2025-06-20 12:00",
+    "airline": "SpiceJet",
+    "fare": 2936
+  },
+  {
+    "flight_id": 333,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-20 11:00",
+    "arrival": "2025-06-20 12:45",
+    "airline": "SpiceJet",
+    "fare": 4085
+  },
+  {
+    "flight_id": 334,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-20 12:15",
+    "arrival": "2025-06-20 14:15",
+    "airline": "Vistara",
+    "fare": 7843
+  },
+  {
+    "flight_id": 335,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-20 15:45",
+    "arrival": "2025-06-20 16:45",
+    "airline": "Air India",
+    "fare": 3869
+  },
+  {
+    "flight_id": 336,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-20 11:45",
+    "arrival": "2025-06-20 13:00",
+    "airline": "Air India",
+    "fare": 6226
+  },
+  {
+    "flight_id": 337,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-21 14:45",
+    "arrival": "2025-06-21 16:15",
+    "airline": "IndiGo",
+    "fare": 7541
+  },
+  {
+    "flight_id": 338,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-21 20:15",
+    "arrival": "2025-06-21 23:30",
+    "airline": "IndiGo",
+    "fare": 3081
+  },
+  {
+    "flight_id": 339,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-21 20:45",
+    "arrival": "2025-06-22 01:00",
+    "airline": "Air India",
+    "fare": 2278
+  },
+  {
+    "flight_id": 340,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-21 07:45",
+    "arrival": "2025-06-21 11:30",
+    "airline": "SpiceJet",
+    "fare": 2726
+  },
+  {
+    "flight_id": 341,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 10:00",
+    "arrival": "2025-06-21 11:45",
+    "airline": "GoAir",
+    "fare": 4922
+  },
+  {
+    "flight_id": 342,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 09:30",
+    "arrival": "2025-06-21 12:45",
+    "airline": "IndiGo",
+    "fare": 7199
+  },
+  {
+    "flight_id": 343,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-21 07:45",
+    "arrival": "2025-06-21 11:00",
+    "airline": "IndiGo",
+    "fare": 4241
+  },
+  {
+    "flight_id": 344,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-21 06:30",
+    "arrival": "2025-06-21 11:00",
+    "airline": "SpiceJet",
+    "fare": 7777
+  },
+  {
+    "flight_id": 345,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-21 12:15",
+    "arrival": "2025-06-21 15:15",
+    "airline": "Air India",
+    "fare": 5186
+  },
+  {
+    "flight_id": 346,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-21 14:15",
+    "arrival": "2025-06-21 17:30",
+    "airline": "GoAir",
+    "fare": 6869
+  },
+  {
+    "flight_id": 347,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-21 15:45",
+    "arrival": "2025-06-21 20:00",
+    "airline": "SpiceJet",
+    "fare": 2276
+  },
+  {
+    "flight_id": 348,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-21 17:15",
+    "arrival": "2025-06-21 21:00",
+    "airline": "GoAir",
+    "fare": 2033
+  },
+  {
+    "flight_id": 349,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-21 14:45",
+    "arrival": "2025-06-21 16:30",
+    "airline": "GoAir",
+    "fare": 7041
+  },
+  {
+    "flight_id": 350,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-21 19:45",
+    "arrival": "2025-06-21 20:45",
+    "airline": "IndiGo",
+    "fare": 5963
+  },
+  {
+    "flight_id": 351,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-21 17:00",
+    "arrival": "2025-06-21 20:45",
+    "airline": "Air India",
+    "fare": 4618
+  },
+  {
+    "flight_id": 352,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-21 10:15",
+    "arrival": "2025-06-21 13:30",
+    "airline": "Air India",
+    "fare": 3183
+  },
+  {
+    "flight_id": 353,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 11:15",
+    "arrival": "2025-06-21 12:30",
+    "airline": "GoAir",
+    "fare": 5392
+  },
+  {
+    "flight_id": 354,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 11:30",
+    "arrival": "2025-06-21 13:00",
+    "airline": "Vistara",
+    "fare": 7623
+  },
+  {
+    "flight_id": 355,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-21 19:45",
+    "arrival": "2025-06-21 22:15",
+    "airline": "IndiGo",
+    "fare": 2914
+  },
+  {
+    "flight_id": 356,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-21 18:30",
+    "arrival": "2025-06-21 23:00",
+    "airline": "Vistara",
+    "fare": 2437
+  },
+  {
+    "flight_id": 357,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-21 12:45",
+    "arrival": "2025-06-21 14:15",
+    "airline": "SpiceJet",
+    "fare": 5107
+  },
+  {
+    "flight_id": 358,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-21 12:45",
+    "arrival": "2025-06-21 14:30",
+    "airline": "Vistara",
+    "fare": 4891
+  },
+  {
+    "flight_id": 359,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-21 06:15",
+    "arrival": "2025-06-21 08:45",
+    "airline": "SpiceJet",
+    "fare": 3686
+  },
+  {
+    "flight_id": 360,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-21 07:00",
+    "arrival": "2025-06-21 11:15",
+    "airline": "Vistara",
+    "fare": 4828
+  },
+  {
+    "flight_id": 361,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-21 13:30",
+    "arrival": "2025-06-21 14:45",
+    "airline": "Vistara",
+    "fare": 6347
+  },
+  {
+    "flight_id": 362,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-21 20:30",
+    "arrival": "2025-06-21 23:45",
+    "airline": "GoAir",
+    "fare": 5237
+  },
+  {
+    "flight_id": 363,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-21 15:15",
+    "arrival": "2025-06-21 19:45",
+    "airline": "GoAir",
+    "fare": 2449
+  },
+  {
+    "flight_id": 364,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-21 14:45",
+    "arrival": "2025-06-21 17:30",
+    "airline": "IndiGo",
+    "fare": 7908
+  },
+  {
+    "flight_id": 365,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 11:45",
+    "arrival": "2025-06-21 16:00",
+    "airline": "Air India",
+    "fare": 4879
+  },
+  {
+    "flight_id": 366,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 08:45",
+    "arrival": "2025-06-21 13:15",
+    "airline": "IndiGo",
+    "fare": 5538
+  },
+  {
+    "flight_id": 367,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-21 14:00",
+    "arrival": "2025-06-21 15:15",
+    "airline": "Air India",
+    "fare": 4514
+  },
+  {
+    "flight_id": 368,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-21 06:30",
+    "arrival": "2025-06-21 09:15",
+    "airline": "IndiGo",
+    "fare": 2176
+  },
+  {
+    "flight_id": 369,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-21 08:45",
+    "arrival": "2025-06-21 11:15",
+    "airline": "GoAir",
+    "fare": 4199
+  },
+  {
+    "flight_id": 370,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-21 16:15",
+    "arrival": "2025-06-21 17:15",
+    "airline": "IndiGo",
+    "fare": 5032
+  },
+  {
+    "flight_id": 371,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-21 11:30",
+    "arrival": "2025-06-21 13:45",
+    "airline": "GoAir",
+    "fare": 4559
+  },
+  {
+    "flight_id": 372,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-21 14:15",
+    "arrival": "2025-06-21 18:00",
+    "airline": "GoAir",
+    "fare": 5200
+  },
+  {
+    "flight_id": 373,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-21 08:45",
+    "arrival": "2025-06-21 12:15",
+    "airline": "Vistara",
+    "fare": 5087
+  },
+  {
+    "flight_id": 374,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-21 13:15",
+    "arrival": "2025-06-21 15:15",
+    "airline": "GoAir",
+    "fare": 7777
+  },
+  {
+    "flight_id": 375,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-21 18:00",
+    "arrival": "2025-06-21 19:00",
+    "airline": "Air India",
+    "fare": 6161
+  },
+  {
+    "flight_id": 376,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-21 12:45",
+    "arrival": "2025-06-21 14:15",
+    "airline": "GoAir",
+    "fare": 5136
+  },
+  {
+    "flight_id": 377,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-21 20:45",
+    "arrival": "2025-06-22 01:15",
+    "airline": "SpiceJet",
+    "fare": 4102
+  },
+  {
+    "flight_id": 378,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-21 19:45",
+    "arrival": "2025-06-21 22:30",
+    "airline": "Vistara",
+    "fare": 7982
+  },
+  {
+    "flight_id": 379,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-21 10:30",
+    "arrival": "2025-06-21 11:45",
+    "airline": "SpiceJet",
+    "fare": 5267
+  },
+  {
+    "flight_id": 380,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-21 18:15",
+    "arrival": "2025-06-21 21:00",
+    "airline": "Vistara",
+    "fare": 5749
+  },
+  {
+    "flight_id": 381,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-21 06:00",
+    "arrival": "2025-06-21 07:30",
+    "airline": "Vistara",
+    "fare": 4424
+  },
+  {
+    "flight_id": 382,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-21 12:00",
+    "arrival": "2025-06-21 13:15",
+    "airline": "Vistara",
+    "fare": 3440
+  },
+  {
+    "flight_id": 383,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-21 11:00",
+    "arrival": "2025-06-21 14:15",
+    "airline": "Vistara",
+    "fare": 5063
+  },
+  {
+    "flight_id": 384,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-21 17:45",
+    "arrival": "2025-06-21 22:00",
+    "airline": "GoAir",
+    "fare": 7248
+  },
+  {
+    "flight_id": 385,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-21 06:30",
+    "arrival": "2025-06-21 10:45",
+    "airline": "Vistara",
+    "fare": 4410
+  },
+  {
+    "flight_id": 386,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-21 16:15",
+    "arrival": "2025-06-21 18:30",
+    "airline": "IndiGo",
+    "fare": 7827
+  },
+  {
+    "flight_id": 387,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-21 18:30",
+    "arrival": "2025-06-21 22:00",
+    "airline": "SpiceJet",
+    "fare": 4506
+  },
+  {
+    "flight_id": 388,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-21 13:45",
+    "arrival": "2025-06-21 15:30",
+    "airline": "Air India",
+    "fare": 4360
+  },
+  {
+    "flight_id": 389,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-21 18:00",
+    "arrival": "2025-06-21 21:30",
+    "airline": "IndiGo",
+    "fare": 4178
+  },
+  {
+    "flight_id": 390,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-21 15:00",
+    "arrival": "2025-06-21 18:45",
+    "airline": "Air India",
+    "fare": 6589
+  },
+  {
+    "flight_id": 391,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 11:00",
+    "arrival": "2025-06-21 14:00",
+    "airline": "GoAir",
+    "fare": 6746
+  },
+  {
+    "flight_id": 392,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 17:15",
+    "arrival": "2025-06-21 21:15",
+    "airline": "GoAir",
+    "fare": 4943
+  },
+  {
+    "flight_id": 393,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-21 07:30",
+    "arrival": "2025-06-21 09:15",
+    "airline": "Vistara",
+    "fare": 5686
+  },
+  {
+    "flight_id": 394,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-21 17:30",
+    "arrival": "2025-06-21 18:30",
+    "airline": "SpiceJet",
+    "fare": 2710
+  },
+  {
+    "flight_id": 395,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-21 18:30",
+    "arrival": "2025-06-21 21:30",
+    "airline": "Vistara",
+    "fare": 2077
+  },
+  {
+    "flight_id": 396,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-21 07:00",
+    "arrival": "2025-06-21 10:45",
+    "airline": "GoAir",
+    "fare": 4546
+  },
+  {
+    "flight_id": 397,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-21 11:00",
+    "arrival": "2025-06-21 12:45",
+    "airline": "IndiGo",
+    "fare": 3456
+  },
+  {
+    "flight_id": 398,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-21 18:30",
+    "arrival": "2025-06-21 20:30",
+    "airline": "Air India",
+    "fare": 2043
+  },
+  {
+    "flight_id": 399,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-21 09:00",
+    "arrival": "2025-06-21 13:00",
+    "airline": "Vistara",
+    "fare": 2731
+  },
+  {
+    "flight_id": 400,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-21 06:15",
+    "arrival": "2025-06-21 08:15",
+    "airline": "Air India",
+    "fare": 7226
+  },
+  {
+    "flight_id": 401,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-21 17:00",
+    "arrival": "2025-06-21 19:00",
+    "airline": "SpiceJet",
+    "fare": 4800
+  },
+  {
+    "flight_id": 402,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-21 10:30",
+    "arrival": "2025-06-21 14:45",
+    "airline": "Vistara",
+    "fare": 2564
+  },
+  {
+    "flight_id": 403,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 11:30",
+    "arrival": "2025-06-21 12:30",
+    "airline": "SpiceJet",
+    "fare": 5611
+  },
+  {
+    "flight_id": 404,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 12:00",
+    "arrival": "2025-06-21 13:00",
+    "airline": "SpiceJet",
+    "fare": 4575
+  },
+  {
+    "flight_id": 405,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-21 10:45",
+    "arrival": "2025-06-21 13:15",
+    "airline": "Vistara",
+    "fare": 5832
+  },
+  {
+    "flight_id": 406,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-21 19:45",
+    "arrival": "2025-06-21 21:30",
+    "airline": "Air India",
+    "fare": 6877
+  },
+  {
+    "flight_id": 407,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-21 17:00",
+    "arrival": "2025-06-21 18:15",
+    "airline": "GoAir",
+    "fare": 3783
+  },
+  {
+    "flight_id": 408,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-21 10:30",
+    "arrival": "2025-06-21 14:30",
+    "airline": "IndiGo",
+    "fare": 2671
+  },
+  {
+    "flight_id": 409,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-21 06:45",
+    "arrival": "2025-06-21 10:45",
+    "airline": "Air India",
+    "fare": 5107
+  },
+  {
+    "flight_id": 410,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-21 10:45",
+    "arrival": "2025-06-21 15:15",
+    "airline": "Air India",
+    "fare": 5624
+  },
+  {
+    "flight_id": 411,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-21 06:00",
+    "arrival": "2025-06-21 07:00",
+    "airline": "Air India",
+    "fare": 3755
+  },
+  {
+    "flight_id": 412,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-21 18:30",
+    "arrival": "2025-06-21 19:30",
+    "airline": "GoAir",
+    "fare": 4908
+  },
+  {
+    "flight_id": 413,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-21 20:15",
+    "arrival": "2025-06-21 23:30",
+    "airline": "GoAir",
+    "fare": 7280
+  },
+  {
+    "flight_id": 414,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-21 19:00",
+    "arrival": "2025-06-21 22:30",
+    "airline": "SpiceJet",
+    "fare": 7512
+  },
+  {
+    "flight_id": 415,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 13:00",
+    "arrival": "2025-06-21 17:45",
+    "airline": "IndiGo",
+    "fare": 7834
+  },
+  {
+    "flight_id": 416,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-21 08:30",
+    "arrival": "2025-06-21 12:30",
+    "airline": "GoAir",
+    "fare": 2063
+  },
+  {
+    "flight_id": 417,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-21 10:45",
+    "arrival": "2025-06-21 14:45",
+    "airline": "SpiceJet",
+    "fare": 6849
+  },
+  {
+    "flight_id": 418,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-21 14:45",
+    "arrival": "2025-06-21 18:30",
+    "airline": "Vistara",
+    "fare": 7314
+  },
+  {
+    "flight_id": 419,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-21 20:00",
+    "arrival": "2025-06-22 00:15",
+    "airline": "IndiGo",
+    "fare": 3982
+  },
+  {
+    "flight_id": 420,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-21 16:45",
+    "arrival": "2025-06-21 20:45",
+    "airline": "Vistara",
+    "fare": 3663
+  },
+  {
+    "flight_id": 421,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-22 07:15",
+    "arrival": "2025-06-22 11:15",
+    "airline": "GoAir",
+    "fare": 4035
+  },
+  {
+    "flight_id": 422,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-22 17:30",
+    "arrival": "2025-06-22 21:15",
+    "airline": "SpiceJet",
+    "fare": 6070
+  },
+  {
+    "flight_id": 423,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-22 19:45",
+    "arrival": "2025-06-22 21:45",
+    "airline": "GoAir",
+    "fare": 4103
+  },
+  {
+    "flight_id": 424,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-22 12:30",
+    "arrival": "2025-06-22 15:15",
+    "airline": "GoAir",
+    "fare": 3805
+  },
+  {
+    "flight_id": 425,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 07:00",
+    "arrival": "2025-06-22 08:00",
+    "airline": "SpiceJet",
+    "fare": 4425
+  },
+  {
+    "flight_id": 426,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 14:00",
+    "arrival": "2025-06-22 17:15",
+    "airline": "Air India",
+    "fare": 7011
+  },
+  {
+    "flight_id": 427,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-22 17:15",
+    "arrival": "2025-06-22 18:30",
+    "airline": "Air India",
+    "fare": 5383
+  },
+  {
+    "flight_id": 428,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-22 16:45",
+    "arrival": "2025-06-22 18:15",
+    "airline": "IndiGo",
+    "fare": 4748
+  },
+  {
+    "flight_id": 429,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-22 20:45",
+    "arrival": "2025-06-22 21:45",
+    "airline": "SpiceJet",
+    "fare": 7265
+  },
+  {
+    "flight_id": 430,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-22 16:00",
+    "arrival": "2025-06-22 17:15",
+    "airline": "SpiceJet",
+    "fare": 7034
+  },
+  {
+    "flight_id": 431,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-22 11:45",
+    "arrival": "2025-06-22 13:00",
+    "airline": "Air India",
+    "fare": 5014
+  },
+  {
+    "flight_id": 432,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-22 13:30",
+    "arrival": "2025-06-22 17:45",
+    "airline": "Air India",
+    "fare": 3450
+  },
+  {
+    "flight_id": 433,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-22 19:45",
+    "arrival": "2025-06-22 22:15",
+    "airline": "SpiceJet",
+    "fare": 3844
+  },
+  {
+    "flight_id": 434,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-22 13:15",
+    "arrival": "2025-06-22 17:45",
+    "airline": "SpiceJet",
+    "fare": 7928
+  },
+  {
+    "flight_id": 435,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-22 13:00",
+    "arrival": "2025-06-22 16:00",
+    "airline": "Vistara",
+    "fare": 6002
+  },
+  {
+    "flight_id": 436,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-22 15:00",
+    "arrival": "2025-06-22 18:00",
+    "airline": "GoAir",
+    "fare": 4292
+  },
+  {
+    "flight_id": 437,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 11:00",
+    "arrival": "2025-06-22 14:00",
+    "airline": "Vistara",
+    "fare": 6732
+  },
+  {
+    "flight_id": 438,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 10:15",
+    "arrival": "2025-06-22 11:15",
+    "airline": "IndiGo",
+    "fare": 5004
+  },
+  {
+    "flight_id": 439,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-22 13:00",
+    "arrival": "2025-06-22 15:00",
+    "airline": "Air India",
+    "fare": 3657
+  },
+  {
+    "flight_id": 440,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-22 12:15",
+    "arrival": "2025-06-22 15:00",
+    "airline": "IndiGo",
+    "fare": 6394
+  },
+  {
+    "flight_id": 441,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-22 10:45",
+    "arrival": "2025-06-22 14:45",
+    "airline": "IndiGo",
+    "fare": 7207
+  },
+  {
+    "flight_id": 442,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-22 11:45",
+    "arrival": "2025-06-22 13:00",
+    "airline": "Vistara",
+    "fare": 4991
+  },
+  {
+    "flight_id": 443,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-22 08:30",
+    "arrival": "2025-06-22 11:15",
+    "airline": "SpiceJet",
+    "fare": 5815
+  },
+  {
+    "flight_id": 444,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-22 09:15",
+    "arrival": "2025-06-22 13:15",
+    "airline": "SpiceJet",
+    "fare": 7683
+  },
+  {
+    "flight_id": 445,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-22 15:15",
+    "arrival": "2025-06-22 17:15",
+    "airline": "IndiGo",
+    "fare": 2164
+  },
+  {
+    "flight_id": 446,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-22 14:15",
+    "arrival": "2025-06-22 16:15",
+    "airline": "IndiGo",
+    "fare": 6987
+  },
+  {
+    "flight_id": 447,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-22 13:30",
+    "arrival": "2025-06-22 15:30",
+    "airline": "Air India",
+    "fare": 2819
+  },
+  {
+    "flight_id": 448,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-22 16:45",
+    "arrival": "2025-06-22 19:00",
+    "airline": "SpiceJet",
+    "fare": 2692
+  },
+  {
+    "flight_id": 449,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 14:45",
+    "arrival": "2025-06-22 16:00",
+    "airline": "Vistara",
+    "fare": 7984
+  },
+  {
+    "flight_id": 450,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 07:30",
+    "arrival": "2025-06-22 09:30",
+    "airline": "IndiGo",
+    "fare": 7081
+  },
+  {
+    "flight_id": 451,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-22 14:15",
+    "arrival": "2025-06-22 17:00",
+    "airline": "Vistara",
+    "fare": 4592
+  },
+  {
+    "flight_id": 452,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-22 06:30",
+    "arrival": "2025-06-22 10:30",
+    "airline": "IndiGo",
+    "fare": 3633
+  },
+  {
+    "flight_id": 453,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-22 18:00",
+    "arrival": "2025-06-22 22:45",
+    "airline": "Air India",
+    "fare": 7666
+  },
+  {
+    "flight_id": 454,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-22 10:15",
+    "arrival": "2025-06-22 14:30",
+    "airline": "Air India",
+    "fare": 2944
+  },
+  {
+    "flight_id": 455,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-22 16:30",
+    "arrival": "2025-06-22 17:30",
+    "airline": "Air India",
+    "fare": 7635
+  },
+  {
+    "flight_id": 456,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-22 09:00",
+    "arrival": "2025-06-22 13:30",
+    "airline": "Air India",
+    "fare": 3712
+  },
+  {
+    "flight_id": 457,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-22 12:00",
+    "arrival": "2025-06-22 15:30",
+    "airline": "Vistara",
+    "fare": 2934
+  },
+  {
+    "flight_id": 458,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-22 16:15",
+    "arrival": "2025-06-22 17:15",
+    "airline": "Vistara",
+    "fare": 5902
+  },
+  {
+    "flight_id": 459,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-22 09:15",
+    "arrival": "2025-06-22 10:15",
+    "airline": "Vistara",
+    "fare": 5676
+  },
+  {
+    "flight_id": 460,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-22 13:30",
+    "arrival": "2025-06-22 15:15",
+    "airline": "GoAir",
+    "fare": 2022
+  },
+  {
+    "flight_id": 461,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-22 19:30",
+    "arrival": "2025-06-22 21:45",
+    "airline": "GoAir",
+    "fare": 3614
+  },
+  {
+    "flight_id": 462,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-22 20:15",
+    "arrival": "2025-06-22 21:45",
+    "airline": "Vistara",
+    "fare": 7423
+  },
+  {
+    "flight_id": 463,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-22 17:00",
+    "arrival": "2025-06-22 18:15",
+    "airline": "Vistara",
+    "fare": 7584
+  },
+  {
+    "flight_id": 464,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-22 06:15",
+    "arrival": "2025-06-22 09:15",
+    "airline": "SpiceJet",
+    "fare": 3891
+  },
+  {
+    "flight_id": 465,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-22 19:15",
+    "arrival": "2025-06-22 20:45",
+    "airline": "SpiceJet",
+    "fare": 5210
+  },
+  {
+    "flight_id": 466,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-22 07:30",
+    "arrival": "2025-06-22 11:45",
+    "airline": "Air India",
+    "fare": 5319
+  },
+  {
+    "flight_id": 467,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-22 13:45",
+    "arrival": "2025-06-22 17:00",
+    "airline": "Vistara",
+    "fare": 4564
+  },
+  {
+    "flight_id": 468,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-22 16:00",
+    "arrival": "2025-06-22 17:45",
+    "airline": "GoAir",
+    "fare": 3681
+  },
+  {
+    "flight_id": 469,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-22 17:15",
+    "arrival": "2025-06-22 18:45",
+    "airline": "IndiGo",
+    "fare": 6594
+  },
+  {
+    "flight_id": 470,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-22 13:00",
+    "arrival": "2025-06-22 17:15",
+    "airline": "SpiceJet",
+    "fare": 4677
+  },
+  {
+    "flight_id": 471,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-22 15:30",
+    "arrival": "2025-06-22 17:30",
+    "airline": "GoAir",
+    "fare": 3423
+  },
+  {
+    "flight_id": 472,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-22 10:00",
+    "arrival": "2025-06-22 13:00",
+    "airline": "SpiceJet",
+    "fare": 3105
+  },
+  {
+    "flight_id": 473,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-22 10:30",
+    "arrival": "2025-06-22 12:45",
+    "airline": "Air India",
+    "fare": 4944
+  },
+  {
+    "flight_id": 474,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-22 12:30",
+    "arrival": "2025-06-22 17:15",
+    "airline": "Air India",
+    "fare": 7586
+  },
+  {
+    "flight_id": 475,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 07:15",
+    "arrival": "2025-06-22 08:30",
+    "airline": "Air India",
+    "fare": 3198
+  },
+  {
+    "flight_id": 476,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 08:15",
+    "arrival": "2025-06-22 09:15",
+    "airline": "SpiceJet",
+    "fare": 4175
+  },
+  {
+    "flight_id": 477,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-22 10:45",
+    "arrival": "2025-06-22 14:45",
+    "airline": "Air India",
+    "fare": 5144
+  },
+  {
+    "flight_id": 478,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-22 12:30",
+    "arrival": "2025-06-22 16:45",
+    "airline": "Vistara",
+    "fare": 6393
+  },
+  {
+    "flight_id": 479,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-22 20:45",
+    "arrival": "2025-06-23 00:30",
+    "airline": "IndiGo",
+    "fare": 2588
+  },
+  {
+    "flight_id": 480,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-22 20:15",
+    "arrival": "2025-06-22 21:15",
+    "airline": "Vistara",
+    "fare": 2448
+  },
+  {
+    "flight_id": 481,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-22 11:30",
+    "arrival": "2025-06-22 14:45",
+    "airline": "GoAir",
+    "fare": 7078
+  },
+  {
+    "flight_id": 482,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-22 19:45",
+    "arrival": "2025-06-22 23:15",
+    "airline": "Vistara",
+    "fare": 5788
+  },
+  {
+    "flight_id": 483,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-22 16:00",
+    "arrival": "2025-06-22 19:00",
+    "airline": "SpiceJet",
+    "fare": 2551
+  },
+  {
+    "flight_id": 484,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-22 16:45",
+    "arrival": "2025-06-22 19:00",
+    "airline": "Air India",
+    "fare": 6692
+  },
+  {
+    "flight_id": 485,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-22 08:15",
+    "arrival": "2025-06-22 13:00",
+    "airline": "GoAir",
+    "fare": 4795
+  },
+  {
+    "flight_id": 486,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-22 12:45",
+    "arrival": "2025-06-22 16:15",
+    "airline": "SpiceJet",
+    "fare": 6483
+  },
+  {
+    "flight_id": 487,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 07:00",
+    "arrival": "2025-06-22 10:45",
+    "airline": "SpiceJet",
+    "fare": 6473
+  },
+  {
+    "flight_id": 488,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 19:30",
+    "arrival": "2025-06-22 22:45",
+    "airline": "SpiceJet",
+    "fare": 5461
+  },
+  {
+    "flight_id": 489,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-22 09:30",
+    "arrival": "2025-06-22 13:30",
+    "airline": "Air India",
+    "fare": 4045
+  },
+  {
+    "flight_id": 490,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-22 19:15",
+    "arrival": "2025-06-22 23:45",
+    "airline": "SpiceJet",
+    "fare": 7506
+  },
+  {
+    "flight_id": 491,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-22 09:00",
+    "arrival": "2025-06-22 11:30",
+    "airline": "GoAir",
+    "fare": 3185
+  },
+  {
+    "flight_id": 492,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-22 09:15",
+    "arrival": "2025-06-22 13:45",
+    "airline": "Vistara",
+    "fare": 7437
+  },
+  {
+    "flight_id": 493,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-22 19:30",
+    "arrival": "2025-06-23 00:15",
+    "airline": "IndiGo",
+    "fare": 5437
+  },
+  {
+    "flight_id": 494,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-22 08:00",
+    "arrival": "2025-06-22 12:15",
+    "airline": "GoAir",
+    "fare": 3326
+  },
+  {
+    "flight_id": 495,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-22 16:45",
+    "arrival": "2025-06-22 21:00",
+    "airline": "IndiGo",
+    "fare": 5323
+  },
+  {
+    "flight_id": 496,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-22 19:15",
+    "arrival": "2025-06-22 21:45",
+    "airline": "GoAir",
+    "fare": 2301
+  },
+  {
+    "flight_id": 497,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-22 11:00",
+    "arrival": "2025-06-22 14:15",
+    "airline": "GoAir",
+    "fare": 5251
+  },
+  {
+    "flight_id": 498,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-22 12:15",
+    "arrival": "2025-06-22 14:30",
+    "airline": "GoAir",
+    "fare": 7360
+  },
+  {
+    "flight_id": 499,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 06:45",
+    "arrival": "2025-06-22 10:45",
+    "airline": "Vistara",
+    "fare": 7536
+  },
+  {
+    "flight_id": 500,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-22 08:45",
+    "arrival": "2025-06-22 13:30",
+    "airline": "SpiceJet",
+    "fare": 7359
+  },
+  {
+    "flight_id": 501,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-22 15:30",
+    "arrival": "2025-06-22 17:15",
+    "airline": "SpiceJet",
+    "fare": 5504
+  },
+  {
+    "flight_id": 502,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-22 12:45",
+    "arrival": "2025-06-22 15:15",
+    "airline": "IndiGo",
+    "fare": 6674
+  },
+  {
+    "flight_id": 503,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-22 09:00",
+    "arrival": "2025-06-22 10:30",
+    "airline": "SpiceJet",
+    "fare": 6152
+  },
+  {
+    "flight_id": 504,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-22 13:45",
+    "arrival": "2025-06-22 18:30",
+    "airline": "Air India",
+    "fare": 5425
+  },
+  {
+    "flight_id": 505,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-23 06:45",
+    "arrival": "2025-06-23 11:15",
+    "airline": "Air India",
+    "fare": 3896
+  },
+  {
+    "flight_id": 506,
+    "from": "Goa",
+    "to": "Shimla",
+    "departure": "2025-06-23 19:00",
+    "arrival": "2025-06-23 21:00",
+    "airline": "SpiceJet",
+    "fare": 6154
+  },
+  {
+    "flight_id": 507,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-23 20:15",
+    "arrival": "2025-06-23 22:00",
+    "airline": "SpiceJet",
+    "fare": 6431
+  },
+  {
+    "flight_id": 508,
+    "from": "Goa",
+    "to": "Jaipur",
+    "departure": "2025-06-23 10:00",
+    "arrival": "2025-06-23 13:00",
+    "airline": "IndiGo",
+    "fare": 7706
+  },
+  {
+    "flight_id": 509,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 06:15",
+    "arrival": "2025-06-23 09:00",
+    "airline": "Air India",
+    "fare": 3207
+  },
+  {
+    "flight_id": 510,
+    "from": "Goa",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 19:15",
+    "arrival": "2025-06-23 23:30",
+    "airline": "GoAir",
+    "fare": 5446
+  },
+  {
+    "flight_id": 511,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-23 08:00",
+    "arrival": "2025-06-23 10:00",
+    "airline": "IndiGo",
+    "fare": 7674
+  },
+  {
+    "flight_id": 512,
+    "from": "Goa",
+    "to": "Kerela",
+    "departure": "2025-06-23 06:00",
+    "arrival": "2025-06-23 07:30",
+    "airline": "GoAir",
+    "fare": 3039
+  },
+  {
+    "flight_id": 513,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-23 15:45",
+    "arrival": "2025-06-23 18:00",
+    "airline": "GoAir",
+    "fare": 6708
+  },
+  {
+    "flight_id": 514,
+    "from": "Goa",
+    "to": "Delhi",
+    "departure": "2025-06-23 09:45",
+    "arrival": "2025-06-23 12:00",
+    "airline": "Vistara",
+    "fare": 2096
+  },
+  {
+    "flight_id": 515,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-23 06:15",
+    "arrival": "2025-06-23 07:45",
+    "airline": "SpiceJet",
+    "fare": 6874
+  },
+  {
+    "flight_id": 516,
+    "from": "Goa",
+    "to": "Indore",
+    "departure": "2025-06-23 13:00",
+    "arrival": "2025-06-23 15:30",
+    "airline": "Vistara",
+    "fare": 7773
+  },
+  {
+    "flight_id": 517,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-23 15:00",
+    "arrival": "2025-06-23 19:00",
+    "airline": "GoAir",
+    "fare": 6960
+  },
+  {
+    "flight_id": 518,
+    "from": "Shimla",
+    "to": "Goa",
+    "departure": "2025-06-23 16:45",
+    "arrival": "2025-06-23 19:30",
+    "airline": "SpiceJet",
+    "fare": 2843
+  },
+  {
+    "flight_id": 519,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-23 13:45",
+    "arrival": "2025-06-23 18:15",
+    "airline": "SpiceJet",
+    "fare": 3160
+  },
+  {
+    "flight_id": 520,
+    "from": "Shimla",
+    "to": "Jaipur",
+    "departure": "2025-06-23 07:00",
+    "arrival": "2025-06-23 10:00",
+    "airline": "SpiceJet",
+    "fare": 2080
+  },
+  {
+    "flight_id": 521,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 12:30",
+    "arrival": "2025-06-23 15:45",
+    "airline": "IndiGo",
+    "fare": 4908
+  },
+  {
+    "flight_id": 522,
+    "from": "Shimla",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 13:15",
+    "arrival": "2025-06-23 17:00",
+    "airline": "GoAir",
+    "fare": 2571
+  },
+  {
+    "flight_id": 523,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-23 20:45",
+    "arrival": "2025-06-24 00:00",
+    "airline": "Vistara",
+    "fare": 2005
+  },
+  {
+    "flight_id": 524,
+    "from": "Shimla",
+    "to": "Kerela",
+    "departure": "2025-06-23 12:00",
+    "arrival": "2025-06-23 14:45",
+    "airline": "SpiceJet",
+    "fare": 4952
+  },
+  {
+    "flight_id": 525,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-23 10:15",
+    "arrival": "2025-06-23 11:45",
+    "airline": "SpiceJet",
+    "fare": 3866
+  },
+  {
+    "flight_id": 526,
+    "from": "Shimla",
+    "to": "Delhi",
+    "departure": "2025-06-23 10:00",
+    "arrival": "2025-06-23 12:00",
+    "airline": "IndiGo",
+    "fare": 6358
+  },
+  {
+    "flight_id": 527,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-23 19:00",
+    "arrival": "2025-06-23 20:30",
+    "airline": "IndiGo",
+    "fare": 2375
+  },
+  {
+    "flight_id": 528,
+    "from": "Shimla",
+    "to": "Indore",
+    "departure": "2025-06-23 07:00",
+    "arrival": "2025-06-23 08:45",
+    "airline": "Vistara",
+    "fare": 5743
+  },
+  {
+    "flight_id": 529,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-23 12:15",
+    "arrival": "2025-06-23 15:00",
+    "airline": "GoAir",
+    "fare": 3710
+  },
+  {
+    "flight_id": 530,
+    "from": "Jaipur",
+    "to": "Goa",
+    "departure": "2025-06-23 16:30",
+    "arrival": "2025-06-23 19:30",
+    "airline": "IndiGo",
+    "fare": 3748
+  },
+  {
+    "flight_id": 531,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-23 17:15",
+    "arrival": "2025-06-23 19:00",
+    "airline": "IndiGo",
+    "fare": 5086
+  },
+  {
+    "flight_id": 532,
+    "from": "Jaipur",
+    "to": "Shimla",
+    "departure": "2025-06-23 20:00",
+    "arrival": "2025-06-23 22:30",
+    "airline": "Air India",
+    "fare": 2609
+  },
+  {
+    "flight_id": 533,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 16:15",
+    "arrival": "2025-06-23 21:00",
+    "airline": "GoAir",
+    "fare": 5885
+  },
+  {
+    "flight_id": 534,
+    "from": "Jaipur",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 17:30",
+    "arrival": "2025-06-23 18:30",
+    "airline": "SpiceJet",
+    "fare": 4368
+  },
+  {
+    "flight_id": 535,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-23 19:00",
+    "arrival": "2025-06-23 20:45",
+    "airline": "GoAir",
+    "fare": 6509
+  },
+  {
+    "flight_id": 536,
+    "from": "Jaipur",
+    "to": "Kerela",
+    "departure": "2025-06-23 08:45",
+    "arrival": "2025-06-23 10:30",
+    "airline": "GoAir",
+    "fare": 3352
+  },
+  {
+    "flight_id": 537,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-23 14:00",
+    "arrival": "2025-06-23 15:00",
+    "airline": "Air India",
+    "fare": 2234
+  },
+  {
+    "flight_id": 538,
+    "from": "Jaipur",
+    "to": "Delhi",
+    "departure": "2025-06-23 07:45",
+    "arrival": "2025-06-23 11:30",
+    "airline": "GoAir",
+    "fare": 5496
+  },
+  {
+    "flight_id": 539,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-23 13:45",
+    "arrival": "2025-06-23 15:15",
+    "airline": "GoAir",
+    "fare": 6362
+  },
+  {
+    "flight_id": 540,
+    "from": "Jaipur",
+    "to": "Indore",
+    "departure": "2025-06-23 11:30",
+    "arrival": "2025-06-23 14:15",
+    "airline": "IndiGo",
+    "fare": 5145
+  },
+  {
+    "flight_id": 541,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-23 13:30",
+    "arrival": "2025-06-23 17:15",
+    "airline": "SpiceJet",
+    "fare": 5150
+  },
+  {
+    "flight_id": 542,
+    "from": "Darjeeling",
+    "to": "Goa",
+    "departure": "2025-06-23 09:45",
+    "arrival": "2025-06-23 10:45",
+    "airline": "GoAir",
+    "fare": 7868
+  },
+  {
+    "flight_id": 543,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-23 16:30",
+    "arrival": "2025-06-23 18:15",
+    "airline": "SpiceJet",
+    "fare": 2500
+  },
+  {
+    "flight_id": 544,
+    "from": "Darjeeling",
+    "to": "Shimla",
+    "departure": "2025-06-23 18:15",
+    "arrival": "2025-06-23 20:45",
+    "airline": "GoAir",
+    "fare": 5528
+  },
+  {
+    "flight_id": 545,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-23 10:45",
+    "arrival": "2025-06-23 12:00",
+    "airline": "GoAir",
+    "fare": 3785
+  },
+  {
+    "flight_id": 546,
+    "from": "Darjeeling",
+    "to": "Jaipur",
+    "departure": "2025-06-23 09:15",
+    "arrival": "2025-06-23 13:30",
+    "airline": "GoAir",
+    "fare": 4164
+  },
+  {
+    "flight_id": 547,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-23 07:00",
+    "arrival": "2025-06-23 10:15",
+    "airline": "Vistara",
+    "fare": 2584
+  },
+  {
+    "flight_id": 548,
+    "from": "Darjeeling",
+    "to": "Kerela",
+    "departure": "2025-06-23 20:15",
+    "arrival": "2025-06-24 00:45",
+    "airline": "GoAir",
+    "fare": 2092
+  },
+  {
+    "flight_id": 549,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-23 07:45",
+    "arrival": "2025-06-23 09:00",
+    "airline": "Vistara",
+    "fare": 6538
+  },
+  {
+    "flight_id": 550,
+    "from": "Darjeeling",
+    "to": "Delhi",
+    "departure": "2025-06-23 08:15",
+    "arrival": "2025-06-23 10:15",
+    "airline": "GoAir",
+    "fare": 4578
+  },
+  {
+    "flight_id": 551,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-23 07:15",
+    "arrival": "2025-06-23 10:45",
+    "airline": "GoAir",
+    "fare": 7184
+  },
+  {
+    "flight_id": 552,
+    "from": "Darjeeling",
+    "to": "Indore",
+    "departure": "2025-06-23 13:30",
+    "arrival": "2025-06-23 14:30",
+    "airline": "Vistara",
+    "fare": 7807
+  },
+  {
+    "flight_id": 553,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-23 17:00",
+    "arrival": "2025-06-23 21:15",
+    "airline": "Air India",
+    "fare": 6181
+  },
+  {
+    "flight_id": 554,
+    "from": "Kerela",
+    "to": "Goa",
+    "departure": "2025-06-23 14:45",
+    "arrival": "2025-06-23 18:00",
+    "airline": "IndiGo",
+    "fare": 6569
+  },
+  {
+    "flight_id": 555,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-23 08:30",
+    "arrival": "2025-06-23 12:00",
+    "airline": "Air India",
+    "fare": 3930
+  },
+  {
+    "flight_id": 556,
+    "from": "Kerela",
+    "to": "Shimla",
+    "departure": "2025-06-23 10:15",
+    "arrival": "2025-06-23 14:30",
+    "airline": "Vistara",
+    "fare": 5882
+  },
+  {
+    "flight_id": 557,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-23 16:15",
+    "arrival": "2025-06-23 19:00",
+    "airline": "Vistara",
+    "fare": 4535
+  },
+  {
+    "flight_id": 558,
+    "from": "Kerela",
+    "to": "Jaipur",
+    "departure": "2025-06-23 08:45",
+    "arrival": "2025-06-23 11:15",
+    "airline": "GoAir",
+    "fare": 4537
+  },
+  {
+    "flight_id": 559,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 20:15",
+    "arrival": "2025-06-23 23:15",
+    "airline": "GoAir",
+    "fare": 4643
+  },
+  {
+    "flight_id": 560,
+    "from": "Kerela",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 08:30",
+    "arrival": "2025-06-23 09:30",
+    "airline": "GoAir",
+    "fare": 3180
+  },
+  {
+    "flight_id": 561,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-23 19:00",
+    "arrival": "2025-06-23 23:15",
+    "airline": "IndiGo",
+    "fare": 5075
+  },
+  {
+    "flight_id": 562,
+    "from": "Kerela",
+    "to": "Delhi",
+    "departure": "2025-06-23 14:00",
+    "arrival": "2025-06-23 16:45",
+    "airline": "GoAir",
+    "fare": 2673
+  },
+  {
+    "flight_id": 563,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-23 18:15",
+    "arrival": "2025-06-23 23:00",
+    "airline": "SpiceJet",
+    "fare": 3477
+  },
+  {
+    "flight_id": 564,
+    "from": "Kerela",
+    "to": "Indore",
+    "departure": "2025-06-23 16:00",
+    "arrival": "2025-06-23 17:30",
+    "airline": "Vistara",
+    "fare": 4456
+  },
+  {
+    "flight_id": 565,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-23 10:30",
+    "arrival": "2025-06-23 14:00",
+    "airline": "GoAir",
+    "fare": 7981
+  },
+  {
+    "flight_id": 566,
+    "from": "Delhi",
+    "to": "Goa",
+    "departure": "2025-06-23 20:00",
+    "arrival": "2025-06-23 22:45",
+    "airline": "Vistara",
+    "fare": 3163
+  },
+  {
+    "flight_id": 567,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-23 14:00",
+    "arrival": "2025-06-23 16:45",
+    "airline": "Air India",
+    "fare": 3352
+  },
+  {
+    "flight_id": 568,
+    "from": "Delhi",
+    "to": "Shimla",
+    "departure": "2025-06-23 16:45",
+    "arrival": "2025-06-23 18:45",
+    "airline": "GoAir",
+    "fare": 6537
+  },
+  {
+    "flight_id": 569,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-23 11:15",
+    "arrival": "2025-06-23 15:15",
+    "airline": "SpiceJet",
+    "fare": 6869
+  },
+  {
+    "flight_id": 570,
+    "from": "Delhi",
+    "to": "Jaipur",
+    "departure": "2025-06-23 09:45",
+    "arrival": "2025-06-23 12:45",
+    "airline": "Vistara",
+    "fare": 6353
+  },
+  {
+    "flight_id": 571,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 06:00",
+    "arrival": "2025-06-23 09:00",
+    "airline": "SpiceJet",
+    "fare": 4696
+  },
+  {
+    "flight_id": 572,
+    "from": "Delhi",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 15:45",
+    "arrival": "2025-06-23 19:00",
+    "airline": "IndiGo",
+    "fare": 2646
+  },
+  {
+    "flight_id": 573,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-23 15:45",
+    "arrival": "2025-06-23 17:00",
+    "airline": "IndiGo",
+    "fare": 3604
+  },
+  {
+    "flight_id": 574,
+    "from": "Delhi",
+    "to": "Kerela",
+    "departure": "2025-06-23 06:45",
+    "arrival": "2025-06-23 08:00",
+    "airline": "GoAir",
+    "fare": 4115
+  },
+  {
+    "flight_id": 575,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-23 10:00",
+    "arrival": "2025-06-23 14:30",
+    "airline": "SpiceJet",
+    "fare": 3035
+  },
+  {
+    "flight_id": 576,
+    "from": "Delhi",
+    "to": "Indore",
+    "departure": "2025-06-23 11:30",
+    "arrival": "2025-06-23 14:45",
+    "airline": "SpiceJet",
+    "fare": 6582
+  },
+  {
+    "flight_id": 577,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-23 17:00",
+    "arrival": "2025-06-23 21:30",
+    "airline": "GoAir",
+    "fare": 5403
+  },
+  {
+    "flight_id": 578,
+    "from": "Indore",
+    "to": "Goa",
+    "departure": "2025-06-23 09:30",
+    "arrival": "2025-06-23 14:00",
+    "airline": "Vistara",
+    "fare": 5382
+  },
+  {
+    "flight_id": 579,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-23 11:45",
+    "arrival": "2025-06-23 14:45",
+    "airline": "IndiGo",
+    "fare": 4414
+  },
+  {
+    "flight_id": 580,
+    "from": "Indore",
+    "to": "Shimla",
+    "departure": "2025-06-23 08:45",
+    "arrival": "2025-06-23 11:30",
+    "airline": "Vistara",
+    "fare": 2985
+  },
+  {
+    "flight_id": 581,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-23 14:30",
+    "arrival": "2025-06-23 17:30",
+    "airline": "Air India",
+    "fare": 4034
+  },
+  {
+    "flight_id": 582,
+    "from": "Indore",
+    "to": "Jaipur",
+    "departure": "2025-06-23 06:00",
+    "arrival": "2025-06-23 10:45",
+    "airline": "Vistara",
+    "fare": 3942
+  },
+  {
+    "flight_id": 583,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 09:45",
+    "arrival": "2025-06-23 12:30",
+    "airline": "IndiGo",
+    "fare": 6801
+  },
+  {
+    "flight_id": 584,
+    "from": "Indore",
+    "to": "Darjeeling",
+    "departure": "2025-06-23 13:00",
+    "arrival": "2025-06-23 16:30",
+    "airline": "IndiGo",
+    "fare": 2720
+  },
+  {
+    "flight_id": 585,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-23 17:15",
+    "arrival": "2025-06-23 20:15",
+    "airline": "Air India",
+    "fare": 6146
+  },
+  {
+    "flight_id": 586,
+    "from": "Indore",
+    "to": "Kerela",
+    "departure": "2025-06-23 09:30",
+    "arrival": "2025-06-23 10:45",
+    "airline": "Air India",
+    "fare": 6456
+  },
+  {
+    "flight_id": 587,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-23 17:45",
+    "arrival": "2025-06-23 22:00",
+    "airline": "SpiceJet",
+    "fare": 6545
+  },
+  {
+    "flight_id": 588,
+    "from": "Indore",
+    "to": "Delhi",
+    "departure": "2025-06-23 10:15",
+    "arrival": "2025-06-23 15:00",
+    "airline": "IndiGo",
+    "fare": 2753
+  }
+]
