@@ -58,11 +58,16 @@ def confirm_train_booking():
         number_of_seats=st.session_state.number_of_seats
         price=st.session_state.price
         travel_date=st.session_state.travel_date
+        passengers=st.session_state.guest_names
+        phone_number=st.session_state.phone_number
         render_sidebar()
         with st.form("Confirm Train Booking"):
             st.title(f"Confirm your Booking for {train_name} ({train_number}):")
             st.text(f"Train Name:{train_name}")
-            st.text(f"Number of guests:{number_of_seats}")
+            st.text(f"Number of passengers:{number_of_seats}")
+            st.text(f"Passengers:")
+            for i in passengers:
+                st.markdown(f"- {i}")
             st.text(f"Tier:{train_tier}")
             st.text(f"Travel Date:{travel_date}")
             st.text(f"Price:{price}")
