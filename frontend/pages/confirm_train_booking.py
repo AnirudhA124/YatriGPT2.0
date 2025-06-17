@@ -75,7 +75,7 @@ def confirm_train_booking():
             if submit:
                 if book_train(number_of_seats,train_number,train_tier):
                     st.success("Booking is confirmed.")
-                    save_train_booking(username,train_name,train_number,number_of_seats,price,train_tier,travel_date.isoformat() if hasattr(travel_date, 'isoformat') else str(travel_date))
+                    save_train_booking(username,train_name,train_number,number_of_seats,price,train_tier,travel_date.isoformat() if hasattr(travel_date, 'isoformat') else str(travel_date),passengers)
                     with st.spinner("Redirecting to home page...."):
                         time.sleep(1)
                     st.switch_page('pages/home_page.py')

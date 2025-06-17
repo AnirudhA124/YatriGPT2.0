@@ -56,7 +56,7 @@ def render_sidebar():
             unsafe_allow_html=True
         )
         
-        if st.button("Previous Bookings", use_container_width=True):
+        if st.button("My Bookings", use_container_width=True):
             st.switch_page('pages/previous_booking.py')
         if st.button("Home Page",use_container_width=True):
             st.switch_page('pages/home_page.py')

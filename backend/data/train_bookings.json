@@ -1,1 +1,15 @@
-{"AnirudhA124": [{"train_name": "Delhi Express", "train_number": "12331", "number_of_seats": 1, "tier": "AC 2 Tier", "travel_date": "2025-06-17", "price": 1500}, {"train_name": "Delhi Express", "train_number": "12331", "number_of_seats": 2, "tier": "AC 3 Tier", "travel_date": "2025-06-17", "price": 2000}, {"train_name": "Special Train", "train_number": "12735", "number_of_seats": 2, "tier": "AC Chair Car", "travel_date": "2025-06-18", "price": 2084}, {"train_name": "Special Train", "train_number": "13225", "number_of_seats": 2, "tier": "AC Chair Car", "travel_date": "2025-06-18", "price": 2232}]}
+{
+    "gatik22": [
+        {
+            "train_name": "Shatabdi Express",
+            "train_number": "12835",
+            "number_of_seats": 1,
+            "guest_names": [
+                "gatik kaushik"
+            ],
+            "tier": "AC Chair Car",
+            "travel_date": "2025-06-18",
+            "price": 1335
+        }
+    ]
+}

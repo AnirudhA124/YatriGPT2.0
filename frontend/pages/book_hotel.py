@@ -73,8 +73,8 @@ def book_hotel():
     places_name = [place['name'] for place in hotel_data['places']]
     selected_place = st.selectbox("Select a place", places_name)
     number_of_guests=st.selectbox("Number of Guests",[1,2,3,4,5,6,7,8,9,10])
-    check_in_date=st.date_input("Check In",value="today")
-    check_out_date=st.date_input("Check Out",value="today")
+    check_in_date=st.date_input("Check In",value="today",min_value="today")
+    check_out_date=st.date_input("Check Out",value="today",min_value="today")
     selected_place_data = None
     for place in hotel_data['places']:
         if place['name'] == selected_place:

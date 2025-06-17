@@ -36,26 +36,34 @@ def signup():
         submit=st.form_submit_button("Submit")
         if submit:
             if (name and username and email and password and confirm_password and 
-                phone_number['number'] and preferences and uploaded_image):
+                phone_number['number'] and preferences):
                 if is_valid_email(email):
                     if is_valid_phone(phone_number['nationalNumber']):
                         if is_valid_password(password):
                             if not is_username_exits(username):
-                                if password==confirm_password:
-                                    if add_user(name,username,password,email,phone_number['nationalNumber']
-                                                ,preferences):
-                                        _, file_extension = os.path.splitext(uploaded_image.name)
-                                        new_filename=f"{username}{file_extension}"
-                                        file_path=os.path.join(IMAGE_PATH,new_filename)
-                                        with open(file_path,'wb') as f:
-                                            f.write(uploaded_image.getbuffer())
+                                if password == confirm_password:
+                                    # Add user
+                                    if add_user(name, username, password, email, phone_number['nationalNumber'], preferences):
+                                        # Handle image upload if present
+                                        if uploaded_image:
+                                            try:
+                                                _, file_extension = os.path.splitext(uploaded_image.name)
+                                                new_filename = f"{username}{file_extension}"
+                                                file_path = os.path.join(IMAGE_PATH, new_filename)
+                                                with open(file_path, 'wb') as f:
+                                                    f.write(uploaded_image.getbuffer())
+                                                st.success(f"User added. Profile image saved at {file_path}")
+                                            except Exception as e:
+                                                st.error(f"Image upload failed: {str(e)}")
+                                        else:
+                                            st.success("User added. No profile image uploaded.")
                                         
-                                        st.success(f"User added.{file_path}")
+                                        # Redirect
                                         with st.spinner("Redirecting to login..."):
                                             time.sleep(1)
                                         st.switch_page('main.py')
                                     else:
-                                        st.error("User not added.")                                        
+                                        st.error("User not added.")
                                 else:
                                     st.error("Password and confirm password not same.")
                             else:
@@ -68,6 +76,7 @@ def signup():
                     st.error("Enter valid email.")
             else:
                 st.error("Please fill all fields.")
+
 
 if __name__=="__main__":
     signup()

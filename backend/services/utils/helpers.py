@@ -153,7 +153,7 @@ def book_train(num_seats: int, train_num: str, tier: str):
     # Train not found
     return False
 
-def save_train_booking(username:str,train_name:str,train_number:str,number_of_guests:int,price:int,tier:str,travel_date):
+def save_train_booking(username:str,train_name:str,train_number:str,number_of_guests:int,price:int,tier:str,travel_date,guest_names:list):
     """Saving train bookings.
 
     Args:
@@ -163,6 +163,7 @@ def save_train_booking(username:str,train_name:str,train_number:str,number_of_gu
         number_of_guests (int): number of seats booked
         price (int): price
         tier (str): tier (AC2,AC3,etc)
+        guest_list(list): names of passengers.
         travel_date (_type_): date of journey
 
     Returns:
@@ -175,6 +176,7 @@ def save_train_booking(username:str,train_name:str,train_number:str,number_of_gu
             "train_name":train_name,
             "train_number":train_number,
             "number_of_seats":number_of_guests,
+            "guest_names":guest_names,
             "tier":tier,
             "travel_date":travel_date,
             "price":price
@@ -185,6 +187,7 @@ def save_train_booking(username:str,train_name:str,train_number:str,number_of_gu
             "train_name":train_name,
             "train_number":train_number,
             "number_of_seats":number_of_guests,
+            "guest_names":guest_names,
             "tier":tier,
             "travel_date":travel_date,
             "price":price

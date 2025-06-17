@@ -62,6 +62,9 @@ def previous_train_booking():
                         st.header(f"{booking['train_name']} ({booking['train_number']})")
                         st.markdown(f"**Train Name:** {booking['train_name']}")
                         st.markdown(f"**Number of Seats:** {booking['number_of_seats']}")
+                        st.markdown(f"**Passengers:**")
+                        for i in booking['guest_names']:
+                            st.markdown(f" - {i}")
                         st.markdown(f"**Tier:** {booking['tier']}")
                         st.markdown(f"**Travel Date:** {booking['travel_date']}")
                         st.markdown(f"**Price:** {booking['price']}")
